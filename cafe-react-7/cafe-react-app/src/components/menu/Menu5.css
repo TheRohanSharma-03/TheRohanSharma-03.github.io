@@ -1,0 +1,310 @@
+/*                                                             menu1                                                               */
+
+.menu5{
+    width: 100vw;
+    height: 250vh;
+    background: blue;
+    color: white;
+}
+
+/*                                                       Explore Main (TOP, BOTTOM)                                                       */
+
+.menu5 .menu5Main{
+    width: 100%;
+    height: 100%;
+    background: pink;
+}
+
+/*                                                           Explore Main Top                                                             */
+
+.menu5 .menu5Main .mainTop{
+    width: 100%;
+    height: 34%;
+    background-color: green;
+}
+.menu5 .menu5Main .mainTop .menu5TopImg{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    /* scale: crop; */
+}
+
+/*                                                           Explore Main Bottom                                                             */
+
+.menu5 .menu5Main .mainBottom{
+    width: 100%;
+    height: 66%;
+    background: rgb(95, 23, 35);
+}
+
+/*                                                         Explore Main Bottom Top                                                            */
+
+.menu5 .menu5Main .mainBottom .bottomTop{
+    width: 100%;
+    height: 10%;
+    background: rgb(23, 95, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container{
+    width: 100%;
+    height: 100%;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner{
+    width: 90%;
+    height: 100%;
+    background: #d86363;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner1{
+    width: 100%;
+    height: 16vh;
+    background: #6388d8;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner1 .menu1Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner2{
+    width: 100%;
+    height: 16vh;
+    background: #63d886;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner2 .menu2Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner3{
+    width: 100%;
+    height: 16vh;
+    background: #c3d863;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner3 .menu3Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner4{
+    width: 100%;
+    height: 16vh;
+    background: #d8ab63;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner4 .menu4Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner5{
+    width: 100%;
+    height: 16vh;
+    background: #6388d8;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner5 .menu5Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner6{
+    width: 100%;
+    height: 16vh;
+    background: #63d886;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner6 .menu6Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner7{
+    width: 100%;
+    height: 16vh;
+    background: #c3d863;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner7 .menu7Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner8{
+    width: 100%;
+    height: 14vh;
+    background: #0dca97;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    /* position: relative; */
+}
+.menu5 .menu5Main .mainBottom .bottomTop .slider-container .slider-inner .inner8 .menu8Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    /* position: absolute;
+    top: 1vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                                                         Explore Main Bottom Mid                                                            */
+
+.menu5 .menu5Main .mainBottom .bottomMid{
+    width: 100%;
+    height: 80%;
+    background: rgb(78, 95, 23);
+    background: #252323;
+}
+
+/*                                                        Explore Main Bottom Bottom                                                           */
+
+.menu5 .menu5Main .mainBottom .bottomBottom{
+    width: 100%;
+    height: 10%;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu5 .menu5Main .mainBottom .bottomBottom .show-more-arrow{
+    width: 5%;
+    height: 55%;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,824 @@
+/*                                                             menu1                                                               */
+
+.menu1{
+    width: 100vw;
+    height: 250vh;
+    background: blue;
+    color: white;
+}
+
+/*                                                       menu1 Main (TOP, BOTTOM)                                                       */
+
+.menu1 .menu1Main{
+    width: 100%;
+    height: 100%;
+    background: pink;
+}
+
+/*                                                           menu1 Main Top                                                             */
+
+.menu1 .menu1Main .mainTop{
+    width: 100%;
+    height: 34%;
+    background-color: green;
+}
+.menu1 .menu1Main .mainTop .menu1TopImg{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    /* scale: crop; */
+}
+ 
+/*                                                 menu1 Main Bottom (TOP, MID, BOTTOM)                                                     */
+
+.menu1 .menu1Main .mainBottom{
+    width: 100%;
+    height: 66%;
+    background: rgb(95, 23, 35);
+}
+
+/*                                                     menu1 Main Bottom Top Slider                                                           */
+
+.menu1 .menu1Main .mainBottom .bottomTop{
+    width: 100%;
+    height: 10%;
+    background: rgb(23, 95, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container{
+    width: 100%;
+    height: 100%;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner{
+    width: 90%;
+    height: 100%;
+    background: #d86363;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner1{
+    width: 100%;
+    height: 16vh;
+    background: #6388d8;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner1 .menu1Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner2{
+    width: 100%;
+    height: 16vh;
+    background: #63d886;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner2 .menu2Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner3{
+    width: 100%;
+    height: 16vh;
+    background: #c3d863;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner3 .menu3Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner4{
+    width: 100%;
+    height: 16vh;
+    background: #d8ab63;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner4 .menu4Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner5{
+    width: 100%;
+    height: 16vh;
+    background: #6388d8;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner5 .menu5Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner6{
+    width: 100%;
+    height: 16vh;
+    background: #63d886;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner6 .menu6Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner7{
+    width: 100%;
+    height: 16vh;
+    background: #c3d863;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner7 .menu7Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner8{
+    width: 100%;
+    height: 14vh;
+    background: #0dca97;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    /* position: relative; */
+}
+.menu1 .menu1Main .mainBottom .bottomTop .slider-container .slider-inner .inner8 .menu8Link{
+    width: 100%;
+    height: 14vh;
+    background: #252323;
+    color: #FFAF40;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    /* position: absolute;
+    top: 1vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                                                         menu1 Main Bottom Mid                                                            */
+
+.menu1 .menu1Main .mainBottom .bottomMid{
+    width: 100%;
+    height: 80%;
+    background: rgb(78, 95, 23);
+    background: #252323;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                                                         menu1 Main Bottom Mid Left                                                           */
+
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft{
+    width: 50%;
+    height: 100%;
+    background: rgb(95, 54, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                                                       menu1 Main Bottom Mid Left Top                                                          */
+
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop{
+    width: 100%;
+    height: 10%;
+    background: rgb(43, 5, 211);
+    background: #252323;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle{
+    width: 50%;
+    height: 70%;
+    border-radius: 30px;
+    background: #D16E43;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleName{
+    width: 60%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg{
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #d1439b;
+    background: #D16E43;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .vegButton{
+    width: 40%;
+    height: 100%;
+    background: #43d15d;
+    background: #D16E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .vegButton .buttonOuter{
+    width: 60%;
+    height: 50%;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #2FD820;
+    background: #D3C9C9;
+    border-radius: 12px;  
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .vegButton .buttonOuter .buttonInner{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    border: 1px solid #2FD820;
+    background: #2FD820;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .partition{
+    width: 10%;
+    height: 100%;
+    background: #D16E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .partition .partitionInner{
+    width: 12%;
+    height: 80%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 50px;
+    transform: rotate(10deg);
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .nonvegButton{
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #a4d143;
+    background: #D16E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .nonvegButton .buttonOuter{
+    width: 60%;
+    height: 50%;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #D71919;
+    background: #D3C9C9;
+    border-radius: 12px; 
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftTop .topTitle .titleVegNonveg .nonvegButton .buttonOuter .buttonInner{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    border: 1px solid #D71919;
+    background: #2FD820;
+    background: #ff0000;
+}
+
+/*                                                    menu1 Main Bottom Mid Left Bottom                                                          */
+
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom{
+    width: 100%;
+    height: 90%;
+    background: rgb(28, 95, 23);
+    background: #252323;
+    border-right: 2px solid #F6FA11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .bottomMain{
+    width: 95%;
+    height: 95%;
+    background: rgb(95, 70, 23);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2%;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes{
+    width: 95%;
+    height: 10%;
+    background: rgb(23, 42, 95);
+    background: #252323;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemNameAndPrice{
+    width: 70%;
+    height: 90%;
+    background: rgb(195, 166, 23);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemName{
+    width: 100%;
+    height: 50%;
+    background: rgb(195, 89, 23);
+    background: #252323;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    color: white;    
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemPrice{
+    width: 100%;
+    height: 50%;
+    background: rgb(123, 23, 195);
+    background: #252323;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6FA11;    
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType{
+    width: 10%;
+    height: 90%;
+    background: rgb(21, 221, 158);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType .nonvegButton{
+    width: 100%;
+    height: 100%;
+    background: rgb(21, 221, 48);
+    background: rgb(255, 247, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType .nonvegButton .buttonOuter{
+    width: 60%;
+    height: 50%;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #D71919;
+    background: #D3C9C9;
+    border-radius: 12px;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType .nonvegButton .buttonOuter .buttonInner{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    border: 1px solid #D71919;
+    background: #2FD820;
+    background: #ff0000;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType .vegButton{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 247, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType .vegButton .buttonOuter{
+    width: 60%;
+    height: 50%;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #2FD820;
+    background: #D3C9C9;
+    border-radius: 12px;  
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemVegNonvegType .vegButton .buttonOuter .buttonInner{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    border: 1px solid #2FD820;
+    background: #2FD820;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemQuantity{
+    width: 10%;
+    height: 90%;
+    /* background: rgb(197, 30, 52); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemQuantity .quantityButton{
+    width: 95%;
+    height: 80%;
+    border-radius: 50%;
+    background: rgb(30, 197, 111);
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemQuantity .quantityButton .buttonMinus{
+    width: 25%;
+    height: 100%;
+    /* border-radius: 50%; */
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    /* background: rgb(61, 197, 30); */
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemQuantity .quantityButton .buttonNumber{
+    width: 50%;
+    height: 100%;
+    /* border-radius: 50%; */
+    /* background: rgb(30, 86, 197); */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemQuantity .quantityButton .buttonPlus{
+    width: 25%;
+    height: 100%;
+    /* border-radius: 50%; */
+    border-top-right-radius: 200px;
+    /* border-bottom-right-radius: 200px; */
+    /* background: rgb(164, 30, 197); */
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemAdd{
+    width: 20%;
+    height: 90%;
+    background: rgb(85, 207, 20);
+    background: #252323;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midLeft .leftBottom .mainBoxes .itemAdd .addButton{
+    width: 80%;
+    height: 80%;
+    background: #CB5F5F;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+
+
+/*                                                         menu1 Main Bottom Mid Right                                                           */
+
+.menu1 .menu1Main .mainBottom .bottomMid .midRight{
+    width: 50%;
+    height: 100%;
+    background: rgb(23, 66, 95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                                                   menu1 Main Bottom Mid Right Top                                                           */
+
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop{
+    width: 100%;
+    height: 10%;
+    background: rgb(43, 5, 211);
+    background: rgb(128, 60, 0);
+    background: #252323;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle{
+    width: 50%;
+    height: 70%;
+    border-radius: 30px;
+    background: #D16E43;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleName{
+    width: 60%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg{
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #d1439b;
+    background: #D16E43;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .vegButton{
+    width: 40%;
+    height: 100%;
+    background: #43d15d;
+    background: #D16E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .vegButton .buttonOuter{
+    width: 60%;
+    height: 50%;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #2FD820;
+    background: #D3C9C9;
+    border-radius: 12px;  
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .vegButton .buttonOuter .buttonInner{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    border: 1px solid #2FD820;
+    background: #2FD820;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .partition{
+    width: 10%;
+    height: 100%;
+    background: #D16E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .partition .partitionInner{
+    width: 12%;
+    height: 80%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 50px;
+    transform: rotate(10deg);
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .nonvegButton{
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #a4d143;
+    background: #D16E43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .nonvegButton .buttonOuter{
+    width: 60%;
+    height: 50%;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border: 1px solid #D71919;
+    background: #D3C9C9;
+    border-radius: 12px; 
+}
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightTop .topTitle .titleVegNonveg .nonvegButton .buttonOuter .buttonInner{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    border: 1px solid #D71919;
+    background: #2FD820;
+    background: #ff0000;
+}
+
+/*                                                      menu1 Main Bottom Mid Right Bottom                                                 */
+
+.menu1 .menu1Main .mainBottom .bottomMid .midRight .rightBottom{
+    width: 100%;
+    height: 90%;
+    background: rgb(61, 23, 95);
+}
+
+/*                                                        menu1 Main Bottom Bottom                                                            */
+
+.menu1 .menu1Main .mainBottom .bottomBottom{
+    width: 100%;
+    height: 10%;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1 .menu1Main .mainBottom .bottomBottom .show-more-arrow{
+    width: 5%;
+    height: 55%;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
