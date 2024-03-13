@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: #251A17;
+    /* background: #252323; */
+}
+.nav .topLogo{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .topLogo .cafeLogo{
+    width: 50%;
+}
+.nav .topMenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav .topMenu .menuAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    list-style-type: none; /* Remove bullets */
+}
+.nav .topMenu .menuAll li{
+    text-align: center;
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .topMenu .menuAll .menuUnderline{
+    text-align: center;
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: underline;
+    text-decoration-color: #BBA6A6;
+}
+.nav .topMenu .menuAll li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: arvo;
+    font-size: 2vw;
+    transition: 0.4s ease-in-out 0.4;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav .topAuth{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3vw;
+    align-items: center;
+}
+.nav .topAuth .userLogo{
+    width: 50px;
+    height: 50px;
+}
+.nav .topCart{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav .cartLogo{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3vw;
+    align-items: center;
+}
+.nav .cartLogo .cartLogoLogo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+}
+.nav .cartText{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3vw;
+    align-items: center;
+}
+.nav .cartText .cartTextText{
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
