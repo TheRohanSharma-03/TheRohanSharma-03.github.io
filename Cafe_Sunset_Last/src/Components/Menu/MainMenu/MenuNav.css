@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Menu-bgImg1{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #251A17;
+}
+
+
+.menu-nav-wrapper{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu-logo img{
+    width: 150px;
+    height: 60px;
+    padding: 10px 0;
+}
+
+
+.Main-menuList{
+    display: flex;
+    list-style: none;
+}
+
+.Main-menuList li{
+    padding: 20px 30px;
+}
+
+.Main-menuList li a {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 0 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.Ba-search-btn{
+    font-size: 1.2rem;;
+    /* transform: rotate(-8.98deg); */
+   padding: 0 8px 0 0;
+   text-align: center;
+}
+
+.search-btn-menu {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    padding: 0 5px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 25px 5px 25px;
+}
+
+/* 2nd section Sunset Header Text */
+
+.sunsetBgHeader-color{
+    background-color: #251A17;
+    width: 100%;
+}
+
+.sunsetBG-Header{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.sunsetHeader-text h2{
+   margin: 0;
+   display: inline-flex;
+   color: #D16E43;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;    
+}
+
+.sunsetHeader-text h1{
+    color: white;
+    font-family: "Inspiration", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0;
+}
+
+/* @@@@ circle image (categories item section @@@@*/
+
+.sunsetMenu-categoryWrapper{
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.menuCategory-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.hotBeverageImg{
+    max-width: 200px;
+    height: 200px;  
+}
+
+.hotBeverageImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+}
+
+.hotBeverage-content h3 {
+    color: #FFFFFF;
+    background-color: #D16E43;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    border-radius: 18px;
+    padding: 8px 10px;
+    margin-top: 15px;
+
+}
+
+.hotBeverage-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    gap: 25px;
+}
+
+.item-header{
+   color: white;
+   font-family: "Inter", sans-serif;
+   font-weight: 800;
+}
+
+
+.item-header p{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
+
+.itemAdd-btn-itemcost{
+    color: white;
+    padding-top: 8px;
+}
+
+.itemAdd-btn-itemcost h5{
+    margin: 0;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+.itemAdd-btn-itemcost button{
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    background-color: #78EB7B;
+    border-color: 5px solid #191919;
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+
+/* @@@@ cold beverage column */
+
+.coldBeverageImg{
+    width: 200px;
+    height: 200px;
+    margin: auto;  
+}
+
+.coldBeverageImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+}
+
+.coldBeverage-content h3 {
+    color: #FFFFFF;
+    background-color: #D16E43;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    border-radius: 18px;
+    padding: 8px 10px;
+    margin-top: 15px;
+
+}
+
+.coldBeverage-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    gap: 25px;
+   border-right-style: solid green;
+}
+
+.cold-item-header{
+   color: white;
+   font-family: "Inter", sans-serif;
+   font-weight: 800;
+}
+
+
+.cold-item-header p{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
+
+.cold-itemAdd-btn-itemcost{
+    color: white;
+    padding-top: 8px;
+}
+
+.cold-itemAdd-btn-itemcost h5{
+    margin: 0;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+.cold-itemAdd-btn-itemcost button{
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    background-color: #78EB7B;
+    border-color: 5px solid #191919;
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+
+/* @@@@ Specialbeverage column */
+
+.spDrink-BeverageImg{
+    width: 200px;
+    height: 200px;  
+}
+
+.spDrink-BeverageImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+}
+
+.spDrink-Beverage-content h3 {
+    color: #FFFFFF;
+    background-color: #D16E43;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    border-radius: 18px;
+    padding: 8px 10px;
+    margin-top: 15px;
+
+}
+
+.spDrink-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    gap: 25px;
+   border-right-style: solid green;
+}
+
+.spDrink-item-header h2{
+   color: white;
+   font-family: "Inter", sans-serif;
+   font-weight: 800;
+}
+
+
+.spDrink-item-header p{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
+
+.spDrink-itemAdd-btn-itemcost{
+    color: white;
+    padding-top: 8px;
+}
+
+.spDrink-itemAdd-btn-itemcost h5{
+    margin: 0;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+.spDrink-itemAdd-btn-itemcost button{
+    height: 30px;
+    width: 30px;
+    border-radius: 40%;
+    background-color: #78EB7B;
+    border-color: 5px solid #191919;
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+
+/* @@@@@ Caraosel section (other Category)@@@@@ */
+
+.othrCtgry-Wrapper{
+    max-width: 1440px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.othrCtgry-Header h2{
+    margin: auto;
+    display: inline-flex;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #D16E43;
+    padding: 12px 15px;
+    font-weight: 700;
+    font-size: 20px;    
+}
+
+.othrCategory-wrapper{
+    padding-top: 50px;
+    /* max-width: 1440px; */
+}
+
+.caraosel-HeaderText{
+    max-width: 200px !important;
+    height: 200px;
+
+}
+
+.caraosel-HeaderText img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;   
+}
+
+.center{
+    cursor: pointer;
+    
+}
+
+.caraosel-HeaderText{
+    align-items: center;
+    
+}
+
+.caraosel-HeaderText h4{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.Explore-btn {
+    padding-top: 30px;
+    
+}
+
+.Explore-btn button  {
+    background-color: #CB5F5F;
+    border-radius: 20px;
+    padding: 10px  35px;
+   
+}
+
+.Explore-btn a{
+    font-family: "Aleo", serif;
+    color: #F9E5E5;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/* Best offer caraosel section */
+
+.gift-wrapper {
+    padding: 0 10px;
+}
+
+.bestofr-wrapper{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.bestofr-Header h2{
+    margin: auto;
+    display: inline-flex;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding: 12px 15px;
+    font-weight: 700;
+    font-size: 18px;  
+}
+
+.bestofr-caraosel{
+    position: relative;
+    padding-top: 25px;
+}
+
+
+.specialCombo-text{
+    max-width: 22vw;
+    height: 50vh;
+}
+
+.specialCombo-text img{
+    width: 100%;
+    height: 100%;
+}
+
+.specialCombo-text h3{
+    position: absolute;
+    top: 4%;
+    color: #FFFFFF;
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-size: 15px;
+    transform: translateX(100%);
+}
+
+.specialCombo-text h2{
+    position: absolute;
+    top: 8%;
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ECF01B;
+    transform: translateX(50%); /* for center text */
+}
+
+.specialCombo-Imgtext2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.specialCombo-Imgtext2 h4{
+    position: absolute;
+    bottom: 12rem;
+    margin-left: 20px;  
+    width: 40px;
+    height: 40px;
+    color: #ECF01B;
+    border-radius: 50%;
+    background-color: #191919;
+    font-family: "Joti One", serif;
+    padding: 25px 25px;  /*for space in 4 side */
+          
+}
+
+.span-text {
+    color: white;
+    font-family: "Joti One", serif;
+    font-size: 35px;
+    position: absolute;
+    top: 1.5rem;
+    right: 10px;  
+}
+
+.orderNow-div{
+    background-color: white;
+    padding: 5px 0 5px 5px;
+    position: absolute;
+    bottom: 13rem;
+    transform: translateX(230%);
+    
+}
+
+
+.orderNow-div p{
+    position: relative;
+    background-color: black;
+    color: white;  
+    margin: 0;
+    font-family: "Joti One", serif; 
+}
+
+/* slider-Img 2  (Best ofr)*/
+
+.bestofrImg2-contentBG{
+    max-width: 22vw;
+    height: 50vh;
+    background-color: #AF2222;
+}
+
+.bestofrImg2-contentBG h4{
+    font-family: "Joti One", serif;
+    color: #ECF01B;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.bestofrImg2-contentBG ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Joti One", serif;
+    color: #ECF01B;
+}
+
+.bestofrImg2-Text{
+    max-width: 22vw;
+    height: 38.25vh;
+    padding-left: 1.8rem;
+    position: relative;
+}
+
+.bestofrImg2-Text img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 0 0 0;
+}
+
+.menu-order-btn {
+    background-color: #FE0505;
+    font-family: "Joti One", serif;
+    color: #ECF01B;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: 25px;
+}
+
+.menu-dis-text{
+    position: absolute;
+    bottom: 3.8rem;
+    right: 40px;
+    width: 35px;
+    height: 35px;
+    color: #ECF01B;
+    font-family: "Joti One", serif;
+    background-color: #FE0505;
+    border-radius: 50%;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bestofrImg3{
+    max-width: 22vw;
+    height: 50vh;
+}
+
+.bestofrImg3 img{
+    width: 100%;
+    height: 100%;
+}
+
+    
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BlogNavMain-Bg{
+    background-color: #252323;
+    width: 100%;
+}
+
+.BlogNavbar-width{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BlogNavtLogo{
+    max-width: 150px;
+    height: 80px;
+}
+
+.BlogNavtLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.BlogNavList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.BlogNavList li {
+    list-style: none;
+    padding: 0 50px;   
+}
+
+.BlogNavList a{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.blog-heart span{
+    align-items: center;
+}
+
+.blog-heart {
+    color: white;
+}
+
+.BlogNavDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      
+}
+
+.BlogNavDiv button{
+    background-color: #FFF6F6;
+    border-radius: 20px;
+    padding: 10px 3rem;
+    font-family: "Noto Serif Georgian", serif;
+    font-weight: 400;
+    color: #0F0E0E;
+    border: none;
+}
+
+.humburgerMenu{
+    display: none;
+}
+
+.srchIcon-Mobile-view{
+    display: none;
+}
+
+/* humburger */
+

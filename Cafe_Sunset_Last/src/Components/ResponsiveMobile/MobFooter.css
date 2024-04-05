@@ -1,0 +1,100 @@
+@media only screen and (max-width: 767px) {
+   
+    .footerContainer-Address h2{
+        display: none;        
+    }
+
+    .footerContainer-Address p{
+     display: none;   
+    }
+
+    .footerContainer-Help{
+        display: none;
+    }
+
+    .footerContainer-Help h2{
+        display: none;
+    }
+
+    /* .helpSection-content li, a{
+        display: none;
+    
+    } */
+
+    .footerContainer-Contact{
+        display: none;
+    }
+
+    /* .footerContainer-Contact h2{
+        display: none;
+    } */
+
+    /* .contactSection-content li, a{
+        display: none;
+    } */
+
+    .footerContainer-Contact h2{
+        display: none;
+    }
+
+    .footerContainer-LastColumn h2{
+        display: none;
+    }
+
+    .usefulSection-content{
+        display: none;
+    }
+
+    /* .usefulSection-content li, a{
+        display: none;
+    } */
+
+    .footerMobieview{
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        margin: auto;
+    }
+
+   .footer-address h2{
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+        text-align: start;
+        padding-top: 25px;
+        margin: 0;
+        color: #D71919;
+    }
+
+   .footer-address p{
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        text-align: start;
+        margin: 0;
+        padding-left: 10px;
+        font-size: 12px;
+   }
+
+   .ftrMblList{
+        list-style: none;
+        padding: 2.5rem 0 0 0;
+    
+   }
+
+   .ftrMblList li{
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+   }
+
+   .footerWrappr-socialIcons h4{
+        font-weight: 500;
+        color: #D71919;
+        font-size: 15px;
+    
+    }
+
+    .footerWrappr-socialIcons img{
+        width: 15px;
+        height: 15px;
+    }
+
+}

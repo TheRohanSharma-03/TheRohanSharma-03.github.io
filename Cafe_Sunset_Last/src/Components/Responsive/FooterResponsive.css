@@ -1,0 +1,56 @@
+@media only  screen and (max-width : 992px){
+    .footerContainer{       
+        justify-content: space-around;
+    }
+
+    .footerContainer-Address h2{
+        font-size: 20px;
+        
+    }
+
+    .footerContainer-Help h2{
+        font-size: 20px;
+    }
+
+    .footerContainer-Address p{
+        font-size: 12px;
+    }
+
+    .helpSection-content li, a{
+        font-size: 12px;
+    
+    }
+    
+    .footerContainer-Contact h2{
+        font-size: 20px;
+    }
+
+    .contactSection-content li, a{
+        font-size: 12px;
+    }
+    
+    .footerContainer-Contact h2{
+        font-size: 20px;
+    }
+
+    .footerContainer-LastColumn h2{
+        font-size: 20px;
+    }
+
+    
+    .usefulSection-content li, a{
+        font-size: 12px;
+    }
+    
+    .footerWrappr-socialIcons img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+    .copyright-wrpper h3{
+        font-size: 15px;
+    }
+
+
+}

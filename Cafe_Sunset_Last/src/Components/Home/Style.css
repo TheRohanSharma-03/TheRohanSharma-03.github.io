@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgImg1{
+    width: 100%;
+    height: 52vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/src/Assests/Home.png");
+}
+
+.background-tint{
+    background-color: rgba(0, 0, 0, 0.648);
+    background-blend-mode: multiply;
+}
+
+.nav-wrapper{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    align-items: center
+}
+
+.logo img{
+    width: 150px;
+    height: 70px;
+    padding: 10px 0;
+}
+
+
+.menuList{
+    display: flex;
+    list-style: none;
+}
+
+.menuList li a {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    padding: 0 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.profileImg img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.cartImg img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Welcom component */
+
+.welcomeText {
+    font-size: 30px;
+    color: #D16E43;
+    text-align: start;
+    padding-left: 110px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    /* max-width: 1440px; */
+    max-width: calc(1440px - 110px);
+}
+
+.navbarContentWrapper{
+    max-width: 1440px;
+    text-align: start;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarContentHeader {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+}
+
+.navbarContent-left{
+    width: 50%;
+}
+
+.navbarContent-left h2, h3{
+    font-family: "Playfair Display", serif;
+}
+
+.navbarContent-left h2{
+    color: #D16E43;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.navbarContent-left h3{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 30px ;  
+}
+
+.orderBtn {
+    padding: 20px 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 55px;
+    font-family: "Lexend Giga", sans-serif;
+    font-weight: 400;
+}
+
+/* FirstThirdSection Caraosel */
+
+.navBarContantRight{
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+.navBarContantRight h5{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.caraosel-content-wrapper{
+    display: flex !important;
+    justify-content: space-evenly;
+}
+.caraosel-content1{
+    width: 200px !important;
+    height: 390px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.caraosel-content1 img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.foodContant1Header{
+    font-size: 18px;
+    font-weight: 700;
+    color: #D16E43;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0 10px;
+}
+
+.foodContant2Header{
+    font-size: 12px;
+    font-weight: 200;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0 10px;
+}
+
+.foodContant-btn{
+    border: none;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px 10px;
+    color: #D16E43;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+/* slick caraousel */
+
+.slick-next {
+    right: 18px !important;
+}
+
+
+/* About Section  */
+
+.about-wrapper{
+    background-color: #C4C4C4;
+    width: 100%;
+}
+
+.about-content {
+    max-width: 1440px;
+    margin: auto;
+    /* padding: 50px;
+    width: calc(1440px - 200px); */
+}
+.aboutHeader h2{
+    margin: 0;
+    text-align: start;
+    padding: 30px 0 20px 68px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.aboutStory-Wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutWrapperLeft{
+    width: 60%;
+}
+
+.aboutStory-txt h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-align: start;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+.aboutParagraph p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    
+}
+
+.readMore-btn{
+    text-align: start;
+    padding: 25px 0 15px 35px;
+}
+
+.readMore-btn button {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #E45417;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 20px;    
+}
+
+/* chef Img Section */
+
+.chefSectionRight{
+    width: 30%;
+}
+
+.chefImg{
+    width: 300px;
+    height: 300px;
+}
+
+.chefImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 18px 10px 1px black;
+}
+
+/* Deals and offer caraosel Section */
+
+/* .dealsWrapper{
+    width: 100%;
+    background-color: #B8A3BA;
+}
+
+.dealsContent{
+    width: 1440px;
+    margin: auto;
+}
+
+.dealsHeader h3{
+    margin: 0;
+    text-align: start;
+    padding: 30px 0 50px 68px !important;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+}
+
+.deals-caraosel{
+    width: 1363px !important;
+}
+
+.dealsCarousel-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+.dealsCaraosel-content-container{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4FFFD;
+    border-radius: 5px;
+    width: 628px !important;
+}
+
+.dealscontent-Left{
+    width: 50% !important;
+}
+
+.dealsCaraosel-content h2, h3, h4{
+    text-align: start;
+
+    margin: 0;
+}
+
+ 
+.dealsCaraosel-content h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+.dealsCaraosel-content h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #1A7E11;
+}
+
+.dealsCaraosel-content h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dealsOfr-Btn{
+   padding: 20px 0 0 10px;
+   text-align: start;
+}
+
+.dealsOfr-Btn button{
+    background-color: #BFFFFB;
+    border-radius: 13px;
+    border: 1px solid black;
+    padding: 10px 18px 10px 18px;  
+}
+
+
+.dealscontent-Right{
+    width: 30% !important;
+}
+
+.dealsImg{
+  width: 200px;
+  height: 150px;
+  padding-top: 30px;
+}
+
+.dealsImg img{
+    width: 100%;
+    height: 100%;    
+} */
+
+
+/* Reservation Section */
+
+.reservationWrapper-Bg{
+    background-color: #0F172B;
+    width: 100%;
+}
+
+.reservation-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.reservationImg{
+    max-width: 500px;
+    height: 500px;
+    padding: 30px 0 30px 0;
+}
+
+.reservationImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.reservationContainer-Right{
+    width: 50%;
+}
+
+.reservation-Header h3{
+    color: #FFAB08;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    font-size: 28px;
+    padding: 40px 0 30px 0;
+}
+
+.reservation-Header h1{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    margin: 0;
+}
+
+.reservationdiv-Input{
+    width: 100%;
+}
+
+.inputDiv-NmaeEmail{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    /* align-items: start; */
+}
+
+#full-name{
+    width: 50%;
+}
+
+#Email{
+    width: 50%;
+}
+
+#full-name,
+#Email{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 10px 0;
+    margin: 10px;
+    text-align: center;  
+}
+
+.inputDiv-datePeople{
+    display: flex;
+    width: 100%;
+}
+
+#numberOfPeople{
+    width: 50%;
+}
+
+#dateTimeInput{
+    width: 50%;
+}
+
+#dateTimeInput,
+#numberOfPeople{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.speclReq-input{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#message{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 50px 0 50px 0;
+}
+
+
+.bookNow-btn button{
+    width: 50%;
+}
+.bookNow-btn{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background-color: #FFAB08;
+    padding: 20px 0 20px 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Motivation caraosel */
+
+.motivationImg-bg{
+    background-image: url("../../Assests/motivationImg.jpeg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    background-position: center;
+}
+
+.background-tint{
+    background-color: rgba(0, 0, 0, 0.648);
+    background-blend-mode: multiply;
+}
+
+.mtvton-Header{
+    background-color: rgba(0, 0, 0, 0.884);
+    width: 100%;
+    height: 20vw;
+    margin: auto;  
+}
+
+
+.mtvton-Header h1{
+    max-width: 1440px !important;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.mtvton-Prgph{
+    max-width: 1440px !important;
+    margin: auto;   
+}
+
+.mtvton-Prgph p{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #5d59596c;
+    padding: 50px 50px;
+    margin-left: 23.5%;
+    width: 50%;
+    text-align: center;
+}
+
+.mtvton-dot{
+    background-color: gray;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 20px 10px;
+    transition: background-color 0.6s ease;   
+}
+
+.active, .mtvton-dot:hover {
+    background-color: white;
+}
+
+.newsletter-Headers{
+    max-width: 1440px;
+    margin: auto;
+    text-align: start;
+    padding: 20px 0 0 68px;
+}
+
+.newsletter-txt h1{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    
+}
+
+.newsletter-txt span{
+    color: #BBA6A6;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.newsletter-txt p{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+}
+
+.newsletter-InputBtn{
+    padding: 20px 0;
+    display: flex;
+}
+
+.newsletter-InputBtn input{
+    border-radius: 15px 0 0 15px;
+    padding: 15px 50px 14px 50px;
+    border: none;
+}
+
+.homesubBtn {
+    background-color: #BBA6A6;
+    color: white;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding: 15px 50px 15px 50px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* Footer section */
+
+.footerWrapper-Bg{
+    background-color: #CDC4C4;
+    width: 100%;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footerContainer-Address h2{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    padding-top: 25px;
+    margin: 0;
+    
+}
+
+.footerContainer-Address p{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.footerContainer-Help h2{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    padding-top: 22px;
+    margin: 0;
+}
+
+.helpSection-content li, a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+
+}
+
+.footerContainer-Contact h2{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    padding-top: 22px;
+    margin: 0;
+}
+
+.footerContainer-Contact h2{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    padding-top: 22px;
+    margin: 0;
+}
+
+.contactSection-content li, a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+
+.footerContainer-Contact h2{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    padding-top: 22px;
+    margin: 0;
+}
+
+.footerContainer-LastColumn h2{
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: start;
+    padding-top: 22px;
+    margin: 0;
+}
+
+.usefulSection-content{
+    padding-top: 10px;
+}
+
+.usefulSection-content li, a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.footerMobieview{
+    display: none;
+}
+
+.footerWrappr-socialIcons{
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footerWrappr-socialIcons h4{
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.footerWrappr-socialIcons img{
+    width: 25px;
+    height: 25px;
+    padding: 20px 10px;
+}
+
+.copyright-wrpper{
+    background-color: black;
+    padding: 10px;
+}
+
+.copyright-wrpper h3{
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    padding: 12px 0;
+    text-align: center;
+}
+
+
+    
+
+
+

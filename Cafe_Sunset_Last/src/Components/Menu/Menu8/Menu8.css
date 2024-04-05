@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu8-wrapper{
+    width: 100%;
+    margin: auto; 
+}
+
+.menu8-bgImg{
+    height: 55vh;
+}
+
+.menu8-bgImg img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+}
+
+.menu8-wrapper{
+    background-color: #252323;
+    width: 100%;
+    margin: auto;
+}
+
+.menu8-conteiner{
+    max-width: 1440px !important;
+    margin: auto;
+}
+
+.menu8-itemName-caraosel{
+    width: calc(100% - 79.2px);
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.menu8List-text h4 a{
+    color: #FFAF40;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* @@@LEFT COLUMN BURGER */
+
+.combo-wrapper{
+    display: flex;
+    margin: auto;
+    max-width: 1440px;
+    /* align-items: center; */
+}
+
+.combo-Left{
+    width: 50%;
+    padding: 20px 0;
+    
+}
+
+.combo-Text{
+    display: inline-flex;
+    background-color: #D16E43;
+    border-radius: 30px;
+    /* padding: 0 25px; */
+    margin: 35px 0 0 0;
+    align-items: center;
+    
+}
+
+
+.combo-Text h4 {
+    padding: 10px 15px;
+    font-family: "Inter", sans-serif;
+    font-family: 800; 
+    color: white;
+    font-size: 20px;
+    
+}
+
+.comboLists-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.combo-Category{
+    align-items: baseline;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    padding: 30px 0 20px 0;
+    grid-gap: 20px;
+    
+}
+
+.combo-conteriner{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.combo-header-Rs{
+    display: grid;
+    /* grid-template-rows: no-repeat (1, 1fr); */
+    text-align: start;
+}
+
+.combo-header-Rs h4{
+    color: #FBEFEF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.combo-header-Rs ul{
+    margin: 5px 0;
+}
+
+
+.combo-header-Rs ul li{
+    color: #FBEFEF;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.combo-header-Rs li::marker{
+    color: white;
+}
+
+.combo-header-Rs span{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #F6FA11;
+    font-size: 25px;
+}
+
+.combo-2Btn-vegAdd{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.combo-circle-plusMinus{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+
+.combo-AddBtn{
+    background-color: #CB5F5F;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #FAF3F3;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+/* @@@ right column */
+
+.Valuecombo-right{
+    width: 50%;
+    /* padding: 20px 0; */
+    
+}
+
+
+.ValuecomboLists-wrapper{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.Valuecombo-Category{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    /* padding: 25px 0; */
+    padding: 30px 0 20px 0;
+    grid-gap: 20px;
+    
+}
+
+.Valuecombo-conteriner{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5rem;
+    
+}
+
+
+.Valuecombo-header-Rs{
+    display: grid;
+    /* grid-template-rows: no-repeat (1, 1fr); */
+    text-align: start;
+}
+
+.Valuecombo-header-Rs h4{
+    color: #FDF4F4;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.Valuecombo-header-Rs ul{
+    margin: 5px 0;
+}
+
+
+.Valuecombo-header-Rs ul li{
+    color: #FBEFEF;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.Valuecombo-header-Rs li::marker{
+    color: white;
+}
+
+
+.Valuecombo-header-Rs span{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #F6FA11;
+    font-size: 25px;
+}
+
+
+.Valuecombo-2Btn-Add{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Valuecombo-circle-plusMinus{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    letter-spacing: 1px;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+
+.Valuecombo-AddBtn{
+    background-color: #CB5F5F;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #FAF3F3;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.menu8-quotes h4{
+    color: #CB5F5F;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.combo-header-Rs h5,
+.Valuecombo-header-Rs h5{
+    display: none;
+}

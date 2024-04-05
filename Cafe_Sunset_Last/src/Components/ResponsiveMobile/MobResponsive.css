@@ -1,0 +1,60 @@
+@media only screen and (max-width: 767px) {
+    
+    
+    .BlogNavbar-width{
+        max-width: 767px !important;
+        gap: 9em;
+        padding: 10px 0;
+        align-items: center;
+    }
+
+    .BlogNavDiv{
+        display: none;
+    }
+
+    .BlogNavList{
+        display: none;
+    }
+
+
+     .BlogNavtLogo{
+        max-width: 120px;
+        height: 50px;
+        
+    }
+
+    .BlogNavtLogo img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .humburgerMenu{
+        display: block;
+        color: white;
+        font-weight: bold !important;
+        font-size: 30px;
+    }
+
+    .srchIcon-Mobile-view{
+        display: block;
+        color: white;
+        font-weight: bold !important;
+        font-size: 30px;
+        display: inline-block;
+        padding: 0 10px;
+        
+    }
+
+    
+     
+    
+    
+
+    
+    
+    
+    
+   
+}

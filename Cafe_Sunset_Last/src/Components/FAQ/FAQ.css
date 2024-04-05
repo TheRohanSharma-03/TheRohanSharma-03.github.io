@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FaqMain-Bg{
+    background-color: #252323;
+    width: 100%;
+}
+
+.FaqNavbar-width{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FaqLogo{
+    max-width: 150px;
+    height: 80px;
+}
+
+.FaqLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.FaqnavList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.FaqnavList li {
+    list-style: none;
+    padding: 0 50px;   
+}
+
+.FaqnavList a{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.FaqDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+
+.FaqDiv img{
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    padding: 0 25px; 
+}
+
+.Faqicon{
+    color: white;
+    width: 30px;
+    height: 30px;
+}

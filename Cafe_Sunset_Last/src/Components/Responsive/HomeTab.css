@@ -1,0 +1,1059 @@
+@media only  screen and (max-width : 992px){
+    
+    .nav-wrapper{
+        padding: 0 1rem !important;
+        max-width: 992px !important;
+    }
+
+    .bgImg1{
+        width: 100% !important;
+        height: 128vh !important;
+    }
+
+    .logo img{
+        width: 100px;
+        height: 70px;
+        padding: 10px 0;
+    }
+
+    .menuList li a {
+        font-size: 20px !important;
+        color: white;
+        font-weight: 700;
+        padding: 0 8px !important;
+        
+    }
+    
+    /* Welcom component */
+
+    .welcomeText {
+        font-size: 25px !important;
+        margin: auto !important;
+        padding-left: 20rem !important;
+    }
+
+    .navbarContentWrapper{
+        display: flex;
+        flex-wrap: wrap !important;
+        margin: auto !important;
+        padding: 0 !important;
+    }
+
+    .navbarContentHeader {
+        font-size: 20px !important;
+    }
+
+    .navbarContent-left{
+        margin: auto;
+        width: 100%;
+        padding: 0 4rem;
+    }
+
+
+    .navbarContent-left h2{
+        font-size: 18px !important;
+        padding: 0 !important;
+
+    }
+
+    .navbarContent-left h3{
+        font-size: 15px !important; 
+        padding: 0 !important;
+    }
+
+
+
+    .orderBtn { 
+        padding: 10px 20px !important;
+        font-size: 20px !important;
+        margin-top: 30px !important;
+        margin-left: 15rem !important;
+    }
+
+    /* FirstThirdSection Caraosel */
+
+    .navBarContantRight{
+        margin: auto;
+        width: 86% !important;
+    }
+
+    .navBarContantRight h5{
+        font-size: 15px !important;
+       text-align: center;
+    }
+
+    .caraosel-content-wrapper{
+        width: 99.8% !important;
+    }
+
+    .caraosel-content1{
+        width: 200px !important;
+        height: 260px !important;
+    }
+
+    .caraosel-content1 img{
+        width: 100%;
+        height: 100px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .foodContant1Header{
+        font-size: 12px !important;
+        text-align: center;
+    }
+
+    .foodContant2Header{
+        font-size: 10px !important;
+    }
+
+    /* About content */
+
+    .about-content{
+        padding: 2rem 2rem !important;
+        width: 100%;
+    }
+
+    .aboutHeader h2{
+        margin: auto !important;
+        padding: 0 !important;
+        font-size: 25px !important;
+    }
+
+    .aboutWrapperLeft{
+        width: 100%;
+    }
+
+    .aboutStory-txt h1{
+        padding: 1rem 0 0 0 !important;
+        font-size: 25px !important;
+    }
+
+    .aboutParagraph{
+        width: 90%;
+    }
+
+    .aboutParagraph p{
+        font-size: 15px !important;
+        padding: 0 !important;       
+    }
+
+    .chefSectionRight{
+        width: 75%;
+    }
+
+    .chefImg{
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    /* DEALS */
+
+    .dealsWrapper{
+        display: none !important;
+    }
+
+    /* Mob deals */
+
+    .mob-deals-wrapper{
+        width: 100%;
+        background-color: #B8A3BA;
+        display: block !important;
+    }
+
+    .mobDeals-main-width{
+        margin: auto !important;
+        padding: 1rem 2rem !important
+    }
+
+    .mobdealstxt h3{
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        font-size: 22px !important;
+    }
+
+    .mobdealscaraosel-rectWrapper{
+        margin: auto !important;
+        max-width: 992 !important;
+        padding: 1rem 2rem !important;
+    }
+
+    .mobdealscraosel-rect2{
+        max-width: 992px !important;
+        
+    }
+
+    .mob-dealstextimg{
+        background-color: #E4FFFD;
+        padding: 1rem 1rem !important;
+        display: flex !important;
+        width: 280px !important;
+        align-items: center;
+    }
+
+    .mobcol1-texts h5{
+        text-align: start;
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        font-size: 15px !important;
+    }
+
+    .mobcol1-texts h3{
+        text-align: start;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        font-size: 20px !important;
+        color: #1A7E11;
+    }
+
+    .mobcol1-texts h4{
+        text-align: start;
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        font-size: 15px !important;
+    }
+
+    .mobburgerimg{
+        width: 150px !important;
+        height: 100px !important;
+    }
+
+    .mobburgerimg img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* reservation */
+
+    .reservationImg{
+        max-width: 350px !important;
+        height: 350px !important;
+        padding: 20px 0 20px 0;
+    }
+
+    .reservation-Header h3{
+        text-align: center;
+        font-size: 25px !important;
+        padding: 20px 0 10px 0 !important;
+    }
+
+    .reservation-Header h1{
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    .reservationdiv-Input{
+        width: 100%;
+        margin: auto !important;
+    }
+
+    #message{
+        margin-top: 10px;
+        padding: 25px 0 25px 0 !important;
+    }
+
+    /* Motivational */
+
+    .mtvton-Header{
+        width: 100%;
+        height: 40vh !important;
+        margin: auto;  
+    }
+
+    .mtvton-Header h1{
+        margin: auto !important;
+        font-size: 25px !important;
+    }
+
+    .mtvton-Prgph{
+        max-width: 700px !important;
+        margin: auto !important;
+        padding: 2rem 0 0 0;   
+    }
+
+    .mtvton-Prgph p{
+        font-size: 15px !important;
+        background-color: #5d59596c;
+        padding: 30px 20px !important;
+        margin-left: 0 !important;
+        margin: auto !important;
+        width: 50%;
+        text-align: center;
+    }
+
+    .newsletter-txt h1{
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        margin: 0;
+        font-size: 22px !important;
+        
+    }
+
+    .newsletter-txt span{
+        font-size: 25px !important;
+    }
+
+    .newsletter-txt p{
+        font-size: 12px !important;
+    }
+
+    .newsletter-InputBtn input{
+        padding: 15px 20px 14px 20px !important;
+    }
+
+    .homesubBtn {
+        padding: 15px 20px 15px 20px !important;
+    }
+
+
+    /* Main Menu  */
+
+    .menu-nav-wrapper{
+        margin: auto !important;
+    }
+    
+
+    .menu-logo img{
+        width: 90px !important;
+        height: 80px !important;
+        padding: 10px 20px !important;
+    }
+
+    .Main-menuList li{
+        padding: 20px 10px !important;
+    }
+
+    .Main-menuList li a {
+        font-size: 18px !important;
+        padding: 0 15px !important;
+    }
+
+    .Ba-search-btn{
+        font-size: 1rem !important;
+        padding: 0 5px 0 0 !important;
+    }
+
+    .search-btn-menu {
+        padding: 0 5px;
+        font-size: 12px !important;
+        background-color: white;
+        border-radius: 30px;
+        padding: 5px 10px 5px 10px !important;
+    }
+
+    /* @@@@ circle image (categories item section @@@@*/
+
+    .hotBeverageImg,
+    .coldBeverageImg,
+    .spDrink-BeverageImg{
+        max-width: 150px !important;
+        height: 150px !important;
+        margin: auto !important; 
+    }
+
+    .hotBeverage-content h3,
+    .coldBeverage-content h3,
+    .spDrink-Beverage-content h3 {
+        padding: 8px 0 !important;
+        font-size: 15px !important;
+    
+    }
+
+    .item-header,
+    .cold-item-header,
+    .spDrink-item-header  {
+        font-size: 12px !important;
+     }
+
+     .item-header p{
+        font-size: 8px !important;
+    }
+
+    .itemAdd-btn-itemcost h5,
+    .cold-itemAdd-btn-itemcost h5,
+    .spDrink-itemAdd-btn-itemcost h5{
+        font-size: 12px !important;
+    }
+
+    .itemAdd-btn-itemcost button,
+    .cold-itemAdd-btn-itemcost button,
+    .spDrink-itemAdd-btn-itemcost button{
+        height: 25px !important;
+        width: 25px !important;
+        font-size: 15px !important;
+    }
+
+    /* @@@@@ Caraosel section (other Category)@@@@@ */
+
+    .othrCtgry-Wrapper{
+        margin: auto !important;
+        max-width: 992px !important;
+        padding: 0 2rem !important;
+    }
+    
+    .othrCtgry-Header{
+        padding: 2rem 0 !important;
+    }
+
+    .widthforTab{
+        width:95% !important;
+        padding: 0 1rem !important;
+    }
+
+    .tabmainmenu-hr{
+        width: 150px !important;
+    }
+
+    .caraosel-HeaderText{
+        max-width: 120px !important;
+        height: 150px !important;
+    
+    }
+
+    /* Best ofr  */
+    
+    .bestofr-wrapper{
+        max-width: 992px !important;
+        margin: auto !important;
+    }
+
+    .bestofrwidth-tab{
+        width: 91% !important;
+        padding: 0 2rem !important;
+    }
+
+    .specialCombo-text{
+        max-width: 44vw !important;
+        height: 50vh !important;
+    }
+
+    .specialCombo-Imgtext2 h4{
+        bottom: 10rem !important;             
+    }
+
+    .span-text {
+        font-size: 30px !important;  
+    }
+
+    .orderNow-div{
+        bottom: 12rem !important;
+        
+    }
+
+    /* slider-Img 2  (Best ofr)*/
+
+    .bestofrImg2-contentBG{
+        max-width: 44vw !important;
+        height: 50vh;
+        background-color: #AF2222;
+    }
+
+    .bestofrImg2-Text{
+        max-width: 45vw !important;
+        height: 36.8vh !important;
+        padding-left: 1.8rem;
+        position: relative;
+    }
+
+    .bestofrImg3{
+        max-width: 44vw !important;
+        height: 50vh;
+    }
+
+    /* Menu 1 */
+
+    .menu1-itemName-caraosel{
+        max-width: 992px !important;
+        margin: auto !important;
+        padding: 0 2rem !important;
+    }
+
+    .menu1List-text{
+        width: 98% !important;
+        margin: auto !important;
+    }
+
+    .menu1List-text h4 {
+        text-align: center !important;
+    }
+
+    .burger-Text,
+    .sandwich-Text{
+        padding: 0 20px !important; 
+    }
+
+    .burger-Text h4,
+    .sandwich-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+    .square1-grn,
+    .square1-red,
+    .Sandwich-square1-grn,
+    .Sand-square1-red{
+        width: 18px !important;
+        height: 15px !important;
+    }
+
+    .dot-grn,
+    .dot-red,
+    .sandwich-dot-grn,
+    .Sand-dot-red{
+        margin: 0 0 5px 0 !important;
+    }
+
+    .nonvejBtn-red,
+    .vejBtn-grn,
+    .Sand-nonvejBtn-grn,
+    .Sand-nonvejBtn-red{
+        width: 15px !important;
+        height: 12px !important;
+    }
+
+    .nonvejDot-red,
+    .vejDot-grn,
+    .Sand-nonvejDot-grn,
+    .Sand-nonvejDot-red{
+        margin: 0 0 7px 0 !important;
+        border: 3px solid #D71919;
+        border: 3px solid #2FD820;
+    }
+
+    .burger-header-Rs h4,
+    .Sandwich-header-Rs h4{
+        display: none !important;
+    }
+
+    .burger-header-Rs h5,
+    .Sandwich-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+    
+
+    .burger-header-Rs span,
+    .Sandwich-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .threeBtn-vegAdd,
+    .sandwich-threeBtn-vegAdd{
+        gap: 10px !important;
+    }
+
+    .circle-plusMinus,
+    .Sand-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+    .AddBtn,
+    .Sand-AddBtn{
+        font-size: 12px !important;
+        text-align: center;
+        padding: 5px;
+        
+    }
+
+    /* Menu 2 */
+
+    .chineseMenu2-itemName-caraosel,
+    .menu3-itemName-caraosel,
+    .menu4-itemName-caraosel,
+    .menu5-itemName-caraosel,
+    .menu6-itemName-caraosel,
+    .menu7-itemName-caraosel,
+    .menu8-itemName-caraosel{
+        max-width: 992px !important;
+        margin: auto !important;
+        padding: 0 2rem !important;
+    }
+
+    .menu2List-text,
+    .menu3List-text,
+    .menu4List-text,
+    .menu5List-text,
+    .menu6List-text,
+    .menu7List-text,
+    .menu8List-text{
+        width: 98% !important;
+        margin: auto !important;
+    }
+
+    .menu2List-text h4,
+    .menuList-text h4,
+    .menu4List-text h4,
+    .menu5List-text h4,
+    .menu6List-text h4,
+    .menu7List-text h4,
+    .menu8List-text h4{
+        text-align: center !important;
+    }
+    
+
+    .appertHeader-Text,
+    .RiceNoodles-Text,
+    .SoupHeader-Text,
+    .MainCourseHeader-Text,
+    .SweetCon-Text{
+        padding: 0 20px !important; 
+    }
+
+    
+
+    .appertHeader-Text h4,
+    .RiceNoodles-Text h4,
+    .SoupHeader-Text h4,
+    .MainCourseHeader-Text h4,
+    .SweetCon-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+    .appetizers-header-Rs h4,
+    .Soup-header-Rs h4,
+    .MainCourse-header-Rs h4,
+    .RiceNoodles-header-Rs h4,
+    .SweetCon-header-Rs h4{
+        display: none !important;
+    }
+
+    .appetizers-header-Rs h5,
+    .Soup-header-Rs h5,
+    .MainCourse-header-Rs h5,
+    .RiceNoodles-header-Rs h5,
+    .SweetCon-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .appetizers-header-Rs span,
+    .Soup-header-Rs span,
+    .MainCourse-header-Rs span,
+    .RiceNoodles-header-Rs span,
+    .SweetCon-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .circle-plusMinus,
+    .Sand-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+    .appetCircle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+    .appetAddBtn{
+        font-size: 12px !important;
+        text-align: center;
+        padding: 5px;
+        
+    }
+
+
+    /* Menu 3 */
+
+    .Starter-Text,
+    .Mouthwatering-Text{
+        padding: 0 20px !important; 
+    }
+
+    .Starter-Text h4,
+    .Mouthwatering-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+    .Starter-vejBtn-grn,
+    .Starter-nonvejBtn-red{
+        width: 15px !important;
+        height: 12px !important;
+    }
+
+    .Starter-vejDot-grn,
+    .Starter-nonvejDot-red{
+        margin: 0 0 7px 0 !important;
+        border: 3px solid #D71919;
+        border: 3px solid #2FD820;
+    }
+
+    .Starter-header-Rs h4,
+    .Mouthwatering-header-Rs h4{
+        display: none !important;
+    }
+
+    .Starter-header-Rs h5,
+    .Mouthwatering-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .Mouthwatering-header-Rs span,
+    .Starter-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .Starter-circle-plusMinus,
+    .Mouthwatering-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+
+    .Starter-AddBtn,
+    .Mouthwatering-AddBtn{
+        font-size: 12px !important;
+        text-align: center;
+        padding: 5px;
+        
+    } 
+
+    /* Menu 4 */
+
+    .Sides-Text,
+    .AddOns-Text{
+        padding: 0 20px !important; 
+    }
+
+    .Sides-Text h4,
+    .AddOns-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+    .Sides-vejBtn-grn,
+    .Sides-nonvejBtn-red{
+        width: 15px !important;
+        height: 12px !important;
+    }
+
+    .Sides-vejDot-grn,
+    .Sides-nonvejDot-red{
+        margin: 0 0 7px 0 !important;
+        border: 3px solid #D71919;
+        border: 3px solid #2FD820;
+    }
+
+    .Sides-header-Rs h4,
+    .AddOns-header-Rs h4{
+        display: none !important;
+    }
+
+    .Sides-header-Rs h5,
+    .AddOns-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .Sides-header-Rs span,
+    .AddOns-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .Sides-circle-plusMinus,
+    .AddOns-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+
+    .Sides-AddBtn,
+    .AddOns-AddBtn{
+        font-size: 12px !important;
+        text-align: center;
+        padding: 5px;
+        
+    }
+
+    /* menu 5 */
+
+    .salad-Text,
+    .enhans-Text{
+        padding: 0 20px !important; 
+    }
+
+    .salad-Text h4,
+    .enhans-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+    .salad-vejBtn-grn,
+    .salad-nonvejBtn-red{
+        width: 15px !important;
+        height: 12px !important;
+    }
+
+    .salad-vejDot-grn,
+    .salad-nonvejDot-red{
+        margin: 0 0 7px 0 !important;
+        border: 3px solid #D71919;
+        border: 3px solid #2FD820;
+    }
+
+    .salad-header-Rs h4,
+    .enhans-header-Rs h4{
+        display: none !important;
+    }
+
+    .salad-header-Rs h5,
+    .enhans-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .enhans-conteriner{
+        gap: 0 !important;
+    }
+
+    .enhans-twoBtn-Add{
+        gap: 10px !important;
+    }
+
+    .enhans-header-Rs li,
+    .enhans-header-Rs li{
+        font-size: 12px !important;
+    }
+
+    .salad-header-Rs span,
+    .enhans-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .salad-circle-plusMinus,
+    .enhans-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+
+    .salad-AddBtn,
+    .enhans-AddBtn{
+        font-size: 11px !important;
+        text-align: center;
+        padding: 5px;
+        
+    }
+
+    /* menu 6 */
+
+    .desert-Text,
+    .Sundaes-Text{
+        padding: 0 20px !important; 
+    }
+
+    .desert-Text h4,
+    .Sundaes-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+
+    .desert-header-Rs h4,
+    .Sundaes-header-Rs h4{
+        display: none !important;
+    }
+
+    .desert-header-Rs h5,
+    .Sundaes-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .Sundaes-conteriner{
+        gap: 5rem !important;
+    }
+
+    .desert-header-Rs span,
+    .Sundaes-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .desert-circle-plusMinus,
+    .Sundaes-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+
+    .desert-AddBtn,
+    .Sundaes-AddBtn{
+        font-size: 12px !important;
+        text-align: center;
+        padding: 5px;
+        
+    }
+
+    /* Menu 7 */
+
+    .Maincourse-Text,
+    .pastaRisotto-Text{
+        padding: 0 20px !important; 
+    }
+
+    .Maincourse-Text h4,
+    .pastaRisotto-Text h4{
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+
+    .Maincourse-header-Rs h4,
+    .pastaRisotto-header-Rs h4{
+        display: none !important;
+    }
+
+    .Maincourse-header-Rs h5,
+    .pastaRisotto-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .pastaRisotto-conteriner{
+        gap: 3rem !important;
+    }
+
+    .Maincourse-header-Rs span,
+    .pastaRisotto-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .Maincourse-circle-plusMinus,
+    .pastaRisotto-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+
+    .Maincourse-AddBtn,
+    .pastaRisotto-AddBtn{
+        font-size: 12px !important;
+        text-align: center;
+        padding: 5px;
+        
+    }
+
+    /* Menu 8 */
+
+    .combo-Text{
+        padding: 0 20px !important; 
+    }
+
+    .combo-Text h4 {
+        padding: 10px 10px !important;
+        font-size: 15px !important;
+    }
+
+
+    .combo-header-Rs h4,
+    .Valuecombo-header-Rs h4{
+        display: none !important;
+    }
+
+    .combo-header-Rs h5,
+    .Valuecombo-header-Rs h5{
+        display: block !important;
+        font-size: 18px !important;
+        color: #FDF4F4;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700 !important;
+        margin: 0;
+    }
+
+    .combo-header-Rs ul li,
+    .Valuecombo-header-Rs ul li {
+        font-size: 10px !important;
+    }
+
+    .Valuecombo-conteriner{
+        gap: 1rem !important;
+    }
+    .combo-2Btn-vegAdd {
+        gap: 8px !important;
+    }
+
+    .combo-header-Rs span,
+    .Valuecombo-header-Rs span{
+        font-size: 20px !important;
+    }
+
+    .combo-circle-plusMinus,
+    .Valuecombo-circle-plusMinus{
+        width: 25px !important;
+        height: 20px !important;
+        font-size: x-small !important;
+        padding: 5px 0 0 0 !important;
+    }
+
+
+    .combo-AddBtn,
+    .Valuecombo-AddBtn{
+        font-size: 9px !important;
+        text-align: center;
+        padding: 4px;
+        
+    }
+
+    .menu8-quotes h4 {
+        font-size: 15px !important;
+    }
+
+
+
+
+
+
+    
+}

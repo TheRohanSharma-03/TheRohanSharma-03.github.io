@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Julius+Sans+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog4Main-bg{
+    background-color: #252323;
+    width: 100%;
+    padding: 3rem 0 2rem 0;
+}
+
+.blog4container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.blog4Header h1{
+    color: #d2cfcad6;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.blog4para{
+    padding: 1rem 10rem;
+}
+
+.blog4para p{
+    color: #ffaf4098;
+    background-color: rgba(128, 128, 128, 0.375);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.suset-brews-Heaser-p h2{
+    color: #FFF1F1;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.suset-brews-Heaser-p{
+    padding: 0 10rem;
+}
+
+.suset-brews-Heaser-p p{
+    color: #FFF1F1;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* last */
+
+.blog4lastsec {
+    padding: 2rem 0 0 0;
+}
+
+.blog4lastsec h3{
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 700;
+    color: #FFF5F5;
+}   
+
+.blog4lastsec p{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #FFF5F5;
+}
+
+.blog4lastsec a{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #FFF5F5;
+    text-decoration: underline;
+    font-size: 20px;
+}

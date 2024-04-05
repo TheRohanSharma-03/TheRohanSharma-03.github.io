@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.whatson-Wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.Whatson-Bg-Img{
+    height: 55vh;
+}
+
+.Whatson-Bg-Img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.whatonmindText-wrapper{
+    background-color: #252323;
+    width: 100%;
+    margin: auto;
+}
+
+.whatonmindText-container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.whatsonmind-text h4{
+    padding-top: 20px;
+    display: inline-flex;
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px; 
+}
+
+.menuList-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    width: calc(100% - 100px);
+    padding: 20px 30px;
+    justify-items: center;
+}
+
+.menuList-Img-Text{
+    max-width: 150px;
+    height: 150px;
+    padding: 0 0 30px 0;
+    align-items: center;
+}
+
+.menuList-Img-Text img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+.menuList-Img-Text h4{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.menuList-Img-Text a{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+
+.seeMore-icon-div{
+   display: flex;
+   justify-content: center;
+   padding: 25px 0;
+
+}
+
+.seeMore-icon{
+    color: black;
+    background-color: #7D7474;
+    border-radius: 50%;
+    font-size: 22px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.seeMore-icon-div h4{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    padding: 7px 0 0 15px;
+    font-size: 20px;
+}

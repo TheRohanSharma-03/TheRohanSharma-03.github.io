@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog6mainBg{
+    background-color: #252323;
+    width: 100%;
+    padding: 3rem 0 2rem 0;
+}
+
+.blog6container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.blog6Header h1{
+    color: #d2cfcad6;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.blog6para{
+    padding: 1rem 10rem;
+}
+
+.blog6para p{
+    color: #ffaf4098;
+    background-color: rgba(128, 128, 128, 0.375);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.mansonMagic-wraper h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color:  #FAF0F0;
+    font-size: 28px;
+
+}
+
+.mansonMagic-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mansonMagic-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.maslaMagic-header h4{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: justify;
+    color: #CCB6B6;
+}
+
+.maslaMagic-header p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: justify;
+    color: #FFF0F0;
+}
+
+.blog6Last-para h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color:  #FAF0F0;
+    padding: 1rem 0 0 0 ;
+    text-align: center;
+    font-size: 25px;
+}
+
+.blog6Last-para p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF0F0;
+}
+
+.blog6Mov-para{
+    display: none;
+}
+
+.blog6hr2{
+    display: none;
+}
+
+.mobMasalachai-wrapper{
+    display: none;
+}
+
+.blog6mobilevieHr{
+    display: none;
+}

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* About Section  */
+
+.aboutus-wrapper{
+    background-color: #252323;
+    width: 100%;
+}
+
+.aboutus-content {
+    max-width: 1440px;
+    margin: auto;
+    /* padding: 50px;
+    width: calc(1440px - 200px); */
+    padding: 3rem 0;
+}
+.aboutusHeader h2{
+    margin: 0;
+    text-align: start;
+    padding: 30px 0 20px 68px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.aboutusStory-Wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutusWrapperLeft{
+    width: 60%;
+}
+
+.aboutusStory-txt h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    text-align: start;
+    margin: 0;
+    padding: 0 0 0 30px;
+    color: white;
+}
+
+.aboutusParagraph p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    color: white;
+    
+}
+
+/* .readMore-btn{
+    text-align: start;
+    padding: 25px 0 15px 35px;
+}
+
+.readMore-btn button {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #E45417;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 20px;    
+} */
+
+/* chef Img Section */
+
+.about-uschefSectionRight{
+    width: 30%;
+}
+
+.aboutus-chefImg{
+    width: 300px;
+    height: 300px;
+}
+
+.aboutus-chefImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 18px 10px 1px black
+}
+
+
+/* @@@ about us 2nd component */
+
+.about2-wrapper{
+    width: 100%;
+    background-color: grey;
+}
+
+.about2-container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.about-Left{
+    width: 50%;
+}
+
+.about2-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+
+
+.about2-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-right{
+    width: 30%;
+}
+
+
+
+.about2-paraText p{
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 2.5rem 0 0 0;
+}
+
+
+/* @@@ About 3rd component csss */
+
+.about3-wrapper{
+    width: 100%;
+    background-color: #000000;
+}
+
+.about3-container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.about3-Left{
+    width: 40%;
+}
+
+.about3-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+
+
+.about3-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.about3-right{
+    width: 30%;
+}
+
+.about3-paraText h2{
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: white;
+    padding: 1.5rem 0 0 0;
+    font-size: 25px;
+}
+
+.about3-paraText p{
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 2.5rem 0 0 0;
+    color: white;
+}
+
+/* @@@@last component */
+
+.aboutlastcomp-wrapper{
+    width: 100%;
+    background-color: #252323;
+    padding: 5rem 0;
+}
+
+.aboutlast-content{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.aboutlast-img{
+    max-width: 250px;
+    height: 200px;
+    
+}
+
+.aboutlast-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.last-p p {
+    color: white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+}

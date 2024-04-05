@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+
+.cartcontainer{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartLeftsection{
+    width: 50%;
+    margin: auto;
+    
+}
+
+.cartHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.cartHeader h4{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cartContent-Wrapper {
+    background-color: #d9d9d931;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 15px;
+    margin: 15px 0 15px 0;
+}
+
+.cartcontent-secondColmn{
+    background-color: #1e1a1a4a;
+}
+
+.cartContent-Wrapper img{
+    width:120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.cartcontent-Header{
+    padding: 0 20px;
+}
+
+.cartcontent-Header h4{
+    color: #FDF4F4;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.cartcontent-Header p{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.Add2cart{
+    display: grid;
+    grid-gap: 20px;    
+}
+
+.cart-itemCost h4{
+    color: white;
+    text-align: end;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+}
+
+.Cart-3Btn{
+    display: flex;
+    color: white;
+    background-color: #d9d9d931;
+    
+}
+
+.Cart-3Btn button{
+    background-color: transparent;   
+}
+
+.Cart-3Btn img{
+    width: 20px;
+    height: 20px;
+}
+
+.Cart-3Btn span{
+    width: 30px;
+    height: 29px;
+    background-color: white;
+    color: black;
+}
+
+.Cartplus1{
+    width: 30px;
+    height: 29px;
+    background-color: #d9d9d931;
+    color: black;
+}
+
+
+/* Right column */
+
+.cartRightsection{
+    /* width: 50%; */
+    width: calc(50% - 340px);
+    margin: auto;
+    /* display: grid; */
+}
+
+.cartRight-Header h4{
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.delivery-addrs-wrapper{
+    background-color: #d9d9d931;
+    display: grid;
+}
+
+.delivery-header{
+    padding: 50px 50px 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.delivery-headerText h4{
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.delivery-headerText p{
+    margin: 0;
+    text-align: start;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+}
+
+.chnageBtn{
+    font-weight: 700;
+}
+
+.chnageBtn button{
+    font-family: "Josefin Sans", sans-serif;  
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+}
+
+.deliveryheader-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 50px 50px;
+}
+
+
+.deliveryheader-bottom h4{
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.addBtn{
+    font-weight: 700; 
+}
+
+.addBtn button{
+    font-family: "Josefin Sans", sans-serif;  
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+}
+
+/* ofer section */
+
+.ofr-txt{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.ofr-wrapper{
+    background-color: #d9d9d931;
+    margin: 15px 0 15px 0;
+    padding: 20px 20px;
+}
+
+.ofr-wrapper h4{
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.ofr-wrapper p{
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+
+.slick-next:before {
+    content: '→';
+    margin: 0 0 0 42px !important;
+}
+
+.ofr-caraosel h3{
+    color: white;
+    text-align: center;
+}
+
+/* 3rd section */
+
+.meal-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.mealLeft{
+    width: 50%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.meal-Header h4{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ofr-caraosel2{
+    max-width: 235px;
+    height: 180px;
+    padding: 30px 0 30px 0;
+    align-items: center;
+}
+
+.ofr-caraosel2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.priceRight{
+    width: 20%;
+    margin: auto;
+}
+
+.priceText {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 25px 0;
+}
+
+.price-wrapper{
+    background-color: #d9d9d931;
+    padding: 10px 0 10px 0;
+    margin: 20px 0;
+    
+}
+
+.totalandTaxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+   
+}
+
+.totalandTaxes h4{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.totalandTaxes span{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.plcordrBtn{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    padding: 5px 4rem;
+}
+
+.orderhistory{
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.orderhistory h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+
+}
+
+.ofr-caraosel3{
+    max-width: 250px;
+    height: 220px;
+    
+}
+
+.ofr-caraosel3 img{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    border-radius: 15px;
+    
+}

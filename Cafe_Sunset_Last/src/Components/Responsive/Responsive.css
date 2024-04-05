@@ -1,0 +1,376 @@
+/* BLOG MAIN PAGE */
+
+
+@media only  screen and (max-width : 992px){
+
+    .BlogNavtLogo{
+        max-width: 120px;
+        height: 60px;
+    }
+
+    .BlogNavList li {
+        list-style: none;
+        padding: 0 20px;   
+    }
+
+    .BlogNavList a{
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+
+    .BlogNavDiv button{
+        padding: 10px 1rem;
+
+    }
+
+    /* Body start */
+
+    .latest-blog-wrapper{
+        padding: 0 0 2rem 0;
+    }
+
+    .blog-latest-carosel {
+        max-width: 400px !important;
+     }
+
+    .slider-container-blog{
+        padding: 1rem 0 0 0 !important;
+    }
+
+    .carasel-img {
+        max-width: 60vw;
+        height: 30vh !important;
+    
+    }
+
+    .carasel-img p {
+         padding: 2rem 2rem 0 20px !important;
+         font-size: 16px !important;
+     }
+
+    .carasel-img a{
+        font-size: 19px !important;
+    }
+
+    /* feature image 3rd sec */
+
+
+    .slick-track{
+        width: 0
+    }
+
+    .ftureslider-Img{
+        max-width: 20vw !important;
+        height: 20vh !important;
+    }
+
+    .starimg { 
+        font-size: 22px !important;
+    }
+
+    .rviewBtn-MobileView{
+        display: none !important;
+    }
+
+    /* last sec */
+
+    .blog-lst-sec h2{
+    font-size: 20px;
+    }
+
+    .blog-lst-sec p{
+        font-size: 15px;
+    }
+
+    .rvwBtn {
+    padding: 10px 0 10px 5rem !important;
+    font-size: 12px;
+    }
+
+    .blgsubBtn{
+    margin: 0 10px 0 50px;
+    font-size: 12px;
+    }
+
+    /* @@@ BLOG 1ST PAGE */
+
+    .page1Blog-wrapper{
+        padding: 2rem 0 2rem 0 !important;
+        
+    }
+
+    .exlsv1-Header h1{ 
+        font-size: 28px !important;
+    }
+
+    .pg1blog-para {
+        padding: 1rem 4rem !important;
+    }
+
+    .pg1blog-para h3{
+        font-size: 22px !important;
+    }
+
+    .sec2Main-container{
+       flex-wrap: wrap;    
+    }
+
+    .blog1-sec2Left{
+        width: 100% !important;
+    }
+
+    .blog1-mangoTango-div{
+        flex-wrap: wrap;
+    }
+
+    .blog1-mangoTango-div img{
+        width: 25vw !important;
+        height: 30vh !important;
+        border-radius: 50%;
+    }
+
+    .blog1-sec2Right{
+        width: 100% !important;
+    }
+
+    /* sec 3 blog 1st */
+
+    .blog1sec3{
+        padding: 0 6rem 0 6rem !important;
+    }
+
+    .blog1sec3 h2{
+        font-size: 22px !important;
+        text-align: start;
+    }
+
+    .blog1sec3 li{
+        font-size: 12px !important;
+        text-align: center;
+    }
+
+    .blog1sec3 h5{
+        font-size: 15px !important;
+    }
+
+    .blog1sec4 {
+        padding: 0 6rem 0 6rem !important;
+    }
+
+    .blog1sec4 h4{
+        font-size: 18px !important;
+    }
+
+    .blog1sec4 li{
+        font-size: 12px !important;
+    }
+
+
+    /* last sec blog 1st */
+
+
+    .liveEvent-img{
+        height: 80px !important;    
+    }
+
+
+    /* blog 2nd page */
+
+    .blog2-container h1{
+        font-size: 28px !important;
+    }
+
+    .blog2-para{
+        padding: 1rem 4rem !important;
+    }
+
+    .morning-prelude-wrapper{
+       gap: 1.5rem !important;
+    }
+
+    .morning-prelude-header h3{
+        padding: 1rem 2rem !important;
+     }
+
+    .salad-prelude-wrapper{
+       gap: 1.5rem !important;
+    }
+
+    .salad-prelude-header h3{
+        padding: 1rem 2rem !important;
+        text-align: center;
+     }
+
+    .blog2Last-para{
+        padding: 1rem 4rem 0 4rem !important;
+    }
+
+
+     .blog2Last-para p{
+        text-align: justify;
+        padding: 1rem 1rem !important;
+        font-size: 15px !important;
+    }
+
+
+    /* Blog 3rd page */
+
+    .Blog3Headr h1{
+        font-size: 28px !important;
+    }
+
+    .Blog3Para{
+        padding: 1rem 4rem !important;
+    }
+
+    .Blog3Para p{
+        font-size: 18px !important;
+    }
+
+    .LiveMusice-wrapper{
+       gap: 2.5rem !important;
+    }
+
+    .liveMusic-para h3{
+        font-size: 25px !important;
+    }
+
+    .liveMusic-para p{
+        font-size: 15px !important;
+    }
+
+    /* podcaste */
+
+    .Podcaste-wrapper{
+        gap: 2rem !important;
+    }
+
+    .podcaste-para h3{
+        font-size: 20px !important;
+    }
+
+    .podcaste-para p{
+        font-size: 15px !important;
+    }
+
+    /* last */
+
+    .blog3lastrow{
+        padding: 1rem 2rem 0 2rem !important;
+    }
+
+    .blog3lastrow h3{
+        padding: 1rem 1rem !important;
+        font-size: 15px !important
+    
+    }
+
+    .blog3lastrow h2{
+        color: #FBE5E5;
+        padding: 1rem 1rem !important;
+        font-size: 15px !important;
+    }
+
+    .blog3LasthedingPara h6{
+        font-size: 12px !important;
+    }
+
+    /* Blog 4th page */
+
+    .blog4Header h1{
+        font-size: 28px !important;
+    }
+    
+    .blog4para{
+        padding: 1rem 4rem !important;
+    }
+
+    .blog4para p{
+        font-size: 18px !important;
+    }
+
+    .suset-brews-Heaser-p h2{
+        font-size: 30px !important;
+    }
+
+    .suset-brews-Heaser-p p{
+        font-size: 15px !important;
+    }
+
+    /* Blog 5th pages */
+
+    .blog5-header h1{
+        font-size: 28px !important;
+    }
+
+    .blog5Para{
+        padding: 1rem 4rem !important;
+    }
+
+    /* 3rd */
+    .blog5-3rdP{
+        padding: 2rem 1rem 1rem 1rem !important;
+
+    }
+
+    .blog5-3rdP p{
+        font-size: 15px !important;
+    }
+
+    .blog5-3rdP h2{
+        font-size: 22px !important;
+    }
+
+    .blog5last-bitesblis-header{
+        padding: 0 5rem 0 5rem !important;
+    }
+
+    .blog5last-bitesblis-header h2{
+        font-size: 22px !important;
+    }
+
+    .blog5last-bitesblis-header p{
+        font-size: 12px !important;
+    }
+
+    /* Blog 6th page */
+
+    .blog6Header h1{
+        font-size: 28px !important;
+    }
+
+    .blog6para{
+        padding: 1rem 4rem !important;
+    }
+
+    .maslaMagic-header h4{
+        font-size: 20px !important;
+    }
+
+    .maslaMagic-header p{
+        font-size: 18px !important;
+    }
+
+    .blog6Last-para h3{
+        font-size: 22px !important;
+    }
+
+    .blog6Last-para p{
+        font-size: 12px !important;
+    }
+    
+
+    
+
+    
+
+    
+
+
+    
+
+
+}
+    

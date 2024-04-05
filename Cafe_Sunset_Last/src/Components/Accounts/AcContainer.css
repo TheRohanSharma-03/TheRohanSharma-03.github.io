@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myac-container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.myac-wrapper{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0 3rem 0;
+}
+
+.ac-content-left{
+    width: 20%;
+    height: 29vh;
+    background-color: #7c777728; 
+}
+
+.vl{
+    border-left: 5px solid white;
+    height: 40px;
+    margin: 18px 0 0 0;
+}
+
+.ac-headers h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+
+.ac-headers h4{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.ac-headers a{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 22px;   
+    cursor: pointer;
+
+}
+
+/* @@@ right column */
+
+.acDetails-right{
+    width: 50%;
+}
+
+.acHeader-Text h3{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 25px; 
+}
+
+.acInfoHeader{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px; 
+    text-align: start;
+    padding: 2rem 0 0 0;
+}
+
+.acHeader-Text h4 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: start;
+    padding: 2rem 0 0 0;
+    font-size: 18px;  
+}
+
+.prsnlInfo-Text {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: start;
+    padding: 1rem 0 0 0;
+    font-size: 13px;   
+}
+
+.adrHeader{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px; 
+    text-align: start;
+    padding: 2rem 0 0 0;
+}
+
+.adrHeader span{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 12px; 
+    padding: 0 3rem;
+}
+
+.billing-adrs{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: start;
+}
+
+.billing-adrs span {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+.billing-adrs p{
+    font-size: 13px;
+}
+
+.letus-header h1 {
+    margin: 0;
+    
+}
+
+.letus-header{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-align: start;
+    padding: 15px 0 25px 5rem;
+}
+
+.letsbtn{
+    display: flex;
+
+}
+
+.letsbtn button{
+    background-color: #D9D9D9;
+    border: none;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    height: 2.65rem;
+    padding: 0 50px 0 50px;
+    font-size: 18px;
+}
+
+.letsbtn input{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    padding: 10px 35px 10px 35px;
+    font-size: 18px;
+    border: none;
+}
+

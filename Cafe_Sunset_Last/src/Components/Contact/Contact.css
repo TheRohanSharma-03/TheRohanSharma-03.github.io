@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-wrapper{
+    width: 100%;
+    background-color: #252323;
+    
+}
+
+.contact-container{
+    max-width: 1440px;
+    margin: auto;
+    /* padding: 4rem 0 10rem 0; */
+
+}
+
+.contactPara h1{
+    margin: 0;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 4rem 0 2rem 0;
+}
+
+.locationEmail-flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 10rem 0;
+    
+}
+
+.lctnEmail-wrapper{
+    max-width: 150px;
+    height: 150px;
+    
+    
+}
+
+.lctnEmail-wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: #25232336;
+    
+}
+
+.lctnEmail-wrapper{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.lctnEmail-wrapper h4{
+    text-align: center;
+    font-weight: 700;
+    padding:15px 0 0 0;
+}
+
+.lctnEmail-wrapper p{
+    text-align: center;
+    font-weight: 300;
+}
+
+/* .contact-form-wrapper{
+    padding: 0 0 1rem 4rem;
+} */
+
+
+.contactHeader h2{
+    margin: 0;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.formContent{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;  
+}
+
+.formContent input{
+    margin: 0;
+    background-color: #d9d9d93e;
+    padding: 10px 50px;
+    border: none;
+}
+
+.formContent:nth-child(n+1){
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.mesg-div{
+    padding: 0 0 1rem 14.4rem;
+}
+
+.mesg-div input{
+    margin: 0;
+    padding: 2.5rem 23px;
+    width: 77%;
+    background-color: #d9d9d93e;
+    border: none;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.cntctSbmt-Btn{
+    margin: 0 0 2rem 0;
+    padding: 10px 2.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    background-color: #d9d9d93e;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+

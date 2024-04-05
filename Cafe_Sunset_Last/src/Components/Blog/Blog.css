@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-wrapper{
+    background-color: #252323;
+    width: 100%;
+    padding: 3rem 0 2rem 0;
+    
+}
+
+.blog-container{
+    max-width: 1440px;
+    margin: auto;
+      
+}
+
+.blog-content{
+    background-image: url("../../Assests/Blog1Img.jpg.png") ;   
+    margin: auto;
+    max-width: 60vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 47px;
+    display: flex;
+    justify-content: space-around;
+           
+}
+
+.blog-black-bg{
+    background-color: rgba(0, 0, 0, 0.399);
+    background-blend-mode: multiply;
+}
+
+
+.blog-content h3{
+    color: #FAF3F3;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    text-align:center;
+    padding: 8rem 0 0 0;
+}
+
+.ourvisionHeader{
+    padding: 11rem 0 0 0;
+}
+
+.ourvisionHeader h4{
+    color: #E6D0A4;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    /* padding: 0 10rem 0 0; */
+    /* text-align: right; */
+}
+
+.ourvisionHeader p{
+    color: #E6D0A4;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* blog caraosel */
+
+.latest-blog-wrapper{
+    max-width: 1440px;
+    padding: 0 0 2rem 0;
+}
+
+.blog-header h2{
+    color: #FFFFFF;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.blog-latest-carosel {
+   margin: auto;
+   max-width: 500px;
+
+}
+
+.slider-container-blog{
+    padding: 2rem 0 0 0;
+}
+
+
+
+.carasel-img {
+    max-width: 60vw;
+    height: 30vh;
+    background-color: white;
+    display: flex !important;
+    justify-content: space-between;
+
+}
+
+
+.carasel-img img{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.carasel-img p {
+   color: black;
+   font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    padding: 2.5rem 2rem 0 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.carasel-img h5{
+    margin: 0;
+}
+
+.carasel-img a{
+    font-weight: 800;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+/* feature img */
+
+.feature-header h2{
+    color: #FFFFFF;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.feature-slider {
+    max-width: 1440px !important;
+}
+
+.slider-container2{
+    padding: 0 0 1rem 0 !important;
+}
+
+.ftureslider-Img{
+    max-width: 20vw;
+    height: 30vh;
+}
+
+.ftureslider-Img img{
+    width: 100%;
+    height: 100%;
+}
+
+.starimg { 
+    color: #FFDD95;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.ftureslider-Img h6{
+    color: #FFF5F5;
+    background-color: #d9d9d924;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.rviewBtn-MobileView{
+    display: none !important;
+}
+
+/* last sec */
+
+.blog-lst-sec h2{
+    color: #FFF5F5;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.blog-lst-sec p{
+    color: #FBF4F4;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.rvwBtn {
+    background-color: #D9D9D9;
+    padding: 10px 0 10px 10rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #484343;
+}
+
+.blgsubBtn{
+    background-color: #3C2D25;
+    margin: 0 10px 0 50px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
