@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.blog3{
+    width: 100vw;
+    height: 295vh;
+    background: rgb(102, 84, 84);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3First{
+    width: 100vw;
+    height: 85vh;
+    background: red;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.blog3 .blog3First .firstMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.blog3 .blog3First .firstMain .mainTop{
+    width: 100%;
+    height: 50%;
+    background: rgb(70, 177, 27);
+    background: #252323;
+    font-family: Inter;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #BCBABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 250px 30px 350px;
+}
+.blog3 .blog3First .firstMain .mainBottom{
+    width: 98%;
+    height: 50%;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #5A5959;
+    color: #A48D6D;
+    color: #FFAF40;
+    opacity: 70%;
+    border-radius: 9px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: justified; 
+    text-align: justify;   
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3First .firstMain hr{
+    width: 75%;
+    color: #D16E43;
+    color: rgb(102, 0, 255);
+    background: rgb(123, 0, 255);
+    border: 1px solid #D16E43;
+    border-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog3 .blog3Second{
+    width: 100vw;
+    height: 85vh;
+    background: rgb(255, 247, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3Second .secondMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    /* background: #252323; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #D16E43;
+}
+.blog3 .blog3Second .secondMain .mainLeft{
+    width: 55%;
+    height: 100%;
+    background: rgb(70, 177, 27);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.blog3 .blog3Second .secondMain .mainLeft .leftTop{
+    width: 98%;
+    height: 25%;
+    background: rgb(27, 135, 177);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #F00A0A69;
+    background: #252323;
+    opacity: 59%;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF1F1;    
+    color: #fdf4f4; 
+}
+.blog3 .blog3Second .secondMain .mainLeft .leftBottom{
+    width: 98%;
+    height: 60%;
+    background: rgb(132, 177, 27);
+    background: #252323;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: justified;
+    text-align: justify;
+    color: #fdf4f4;  
+}
+.blog3 .blog3Second .secondMain .mainRight{
+    width: 45%;
+    height: 100%;
+    background: rgb(27, 42, 177);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3Second .secondMain .mainRight .blog3Img1{
+    width: 95%;
+    height: 85%;
+    /* border-radius: 50%; */
+}
+
+
+
+
+
+
+
+
+
+
+.blog3 .blog3Third{
+    width: 100vw;
+    height: 85vh;
+    background: rgb(255, 247, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3Third .thirdMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    /* background: #252323; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #D16E43;
+}
+.blog3 .blog3Third .thirdMain .mainLeft{
+    width: 55%;
+    height: 100%;
+    background: rgb(70, 177, 27);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.blog3 .blog3Third .thirdMain .mainLeft .leftTop{
+    width: 98%;
+    height: 35%;
+    background: rgb(27, 135, 177);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #F00A0A69;
+    background: #252323;
+    opacity: 59%;
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF1F1;    
+    color: #fdf4f4;
+    padding: 0% 30px;
+}
+.blog3 .blog3Third .thirdMain .mainLeft .leftBottom{
+    width: 98%;
+    height: 50%;
+    background: rgb(132, 177, 27);
+    background: #252323;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: justified;
+    text-align: justify;
+    color: #fdf4f4;
+    padding: 0% 30px;
+}
+.blog3 .blog3Third .thirdMain .mainRight{
+    width: 45%;
+    height: 100%;
+    background: rgb(27, 42, 177);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3Third .thirdMain .mainRight .blog3Img2{
+    width: 95%;
+    height: 85%;
+}
+
+
+
+
+
+
+
+
+.blog3 .blog3Fourth{
+    width: 100vw;
+    height: 40vh;
+    background: red;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog3 .blog3Fourth .fourthMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.blog3 .blog3Fourth .fourthMain .mainLeft{
+    width: 30%;
+    height: 70%;
+    background: #D9D9D94D;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fdf4f4;
+}
+.blog3 .blog3Fourth .fourthMain .mainMid{
+    width: 30%;
+    height: 70%;
+    background: rgb(27, 42, 177);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fdf4f4;
+}
+.blog3 .blog3Fourth .fourthMain .mainRight{
+    width: 30%;
+    height: 70%;
+    background: rgb(177, 139, 27);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 10px;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: justified;
+    text-align: justify;
+    color: #fdf4f4;
+}

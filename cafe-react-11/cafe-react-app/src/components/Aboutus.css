@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.aboutus{
+    height: 340vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: #251A17;
+    /* background: #252323; */
+}
+
+
+
+
+
+
+.aboutus .aboutusMain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #251A17;
+    background: #252323;
+}
+
+
+.aboutus .aboutusMain .mainFirst{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #163700;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFirst .firstLeft{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #001c37;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFirst .firstLeft .leftTop{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: flex-end;
+    background: #08a389;
+    background: #252323;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.09px;
+    text-align: left;
+    color: #ffffff;    
+}
+.aboutus .aboutusMain .mainFirst .firstLeft .leftBottom{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30.26px;
+    text-align: justified;
+    text-align: justify;    
+    align-items: flex-start;
+    background: #1a8804;
+    background: #252323;
+    column-gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;    
+}
+.aboutus .aboutusMain .mainFirst .firstLeft .leftBottom p{
+    padding-top: 30px;    
+}
+.aboutus .aboutusMain .mainFirst .firstRight{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    background: #372200;
+    position: relative;
+    background: #C4C4C4;
+    background: #252323;
+}
+.aboutus .aboutusMain .mainFirst .firstRight .rightImage{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 16%;
+    left: 6%;
+    border-radius: 50%;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFirst .firstRight .rightImage .rightImageImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFirst .firstRight .rightCircle{
+    width: 80%;
+    height: 70%;
+    background: black;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    border-radius: 50%;
+    /* background: #252323; */
+}
+
+
+
+
+.aboutus .aboutusMain .mainSecond{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #aea01c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainSecond .secondLeft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #b6471c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainSecond .secondLeft .aboutusImg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #b6471c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainSecond .secondRight{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #8F8F8F;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: justified;
+    text-align: justify;
+    padding: 0px 40px;
+
+    /* background: #252323; */
+}
+
+
+
+
+.aboutus .aboutusMain .mainThird{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #aea01c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainThird .thirdLeft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #001c37;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainThird .thirdLeft .aboutusImg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #b6471c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainThird .thirdRight{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #8F8F8F;
+    background: #001c37;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: justified;
+    text-align: justify;
+    /* padding: 0px 40px; */
+
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainThird .thirdRight .rightTop{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: flex-end;
+    background: #08a389;
+    background: #252323;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.09px;
+    text-align: left;
+    color: #ffffff;    
+}
+.aboutus .aboutusMain .mainThird .thirdRight .rightBottom{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30.26px;
+    text-align: justified;
+    text-align: justify;    
+    align-items: flex-start;
+    background: #1a8804;
+    background: #252323;
+    column-gap: 0px;
+    opacity: 0px;
+    color: #FFFFFF;    
+}
+.aboutus .aboutusMain .mainThird .thirdRight .rightBottom p{
+    padding-top: 30px;    
+}
+
+
+
+
+
+
+
+
+
+.aboutus .aboutusMain .mainFourth{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #aea01c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFourth .fourthLeft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #b6471c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFourth .fourthLeft .aboutusImg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #b6471c;
+    /* background: #252323; */
+}
+.aboutus .aboutusMain .mainFourth .fourthRight{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #8F8F8F;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: justified;
+    text-align: justify;
+    padding: 0px 40px;
+
+    /* background: #252323; */
+}

@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.contactus{
+    width: 100vw;
+    height: 170vh;
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactus .contactusMain{
+    width: 100%;
+    height: 100%;
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst{
+    width: 100%;
+    height: 50%;
+    background: rgb(27, 45, 177);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstTop{
+    width: 100%;
+    height: 40%;
+    background: rgb(40, 177, 27);
+    background: #252323;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    padding: 0px 300px;
+}
+.contactus .contactusMain .mainFirst .firstBottom{
+    width: 100%;
+    height: 60%;
+    background: rgb(177, 157, 27);
+    background: #252323;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomLeft{
+    width: 30%;
+    height: 100%;
+    background: rgb(27, 177, 37);
+    background: #252323;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomLeft .leftTop{
+    width: 100%;
+    height: 50%;
+    background: rgb(177, 70, 27);
+    background: #252323;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomLeft .leftTop .addressImg{
+    width: 50%;
+    height: 100%;
+    background: rgb(177, 70, 27);
+    background: #252323;
+    color: white;
+    opacity: 40%;
+    border-radius: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomLeft .leftMid{
+    width: 100%;
+    height: 25%;
+    background: rgb(27, 75, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;    
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomLeft .leftBottom{
+    width: 100%;
+    height: 25%;
+    background: rgb(169, 27, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomMid{
+    width: 30%;
+    height: 100%;
+    background: rgb(27, 157, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomMid .midTop{
+    width: 100%;
+    height: 50%;
+    background: rgb(177, 70, 27);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomMid .midTop .emailImg{
+    width: 50%;
+    height: 100%;
+    background: rgb(177, 70, 27);
+    background: #252323;
+    color: #ffffff;
+    opacity: 40%;
+    border-radius: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomMid .midMid{
+    width: 100%;
+    height: 25%;
+    background: rgb(27, 75, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center; 
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomMid .midBottom{
+    width: 100%;
+    height: 25%;
+    background: rgb(169, 27, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 40px;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomRight{
+    width: 30%;
+    height: 100%;
+    background: rgb(27, 90, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomRight .rightTop{
+    width: 100%;
+    height: 50%;
+    background: rgb(177, 70, 27);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomRight .rightTop .contactImg{
+    width: 50%;
+    height: 100%;
+    background: rgb(177, 70, 27);
+    background: #252323;
+    color: #ffffff;
+    opacity: 40%;
+    border-radius: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomRight .rightMid{
+    width: 100%;
+    height: 25%;
+    background: rgb(27, 75, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center; 
+}
+.contactus .contactusMain .mainFirst .firstBottom .bottomRight .rightBottom{
+    width: 100%;
+    height: 25%;
+    background: rgb(169, 27, 177);
+    background: #252323;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactus .contactusMain .mainSecond{
+    width: 100%;
+    height: 50%;
+    background: rgb(85, 177, 27);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+}
+.contactus .contactusMain .mainSecond .secondTop{
+    width: 100%;
+    height: 10%;
+    background: rgb(27, 132, 177);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;  
+    /* border-bottom: 1px solid green;   */
+}
+.contactus .contactusMain .mainSecond .secondBottom{
+    width: 100%;
+    height: 90%;
+    background: rgb(177, 27, 154);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm{
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 154, 177);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* padding-top: 100px; */
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm label{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;    
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm input{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    background: #D9D9D94D;
+    color: #ffffff;   
+    width: 31%;
+    height: 10%;
+    opacity: 0px; 
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .fnameLabel{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .fname{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .lnameLabel{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .lname{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .contactnoLabel{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .contactno{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .emailLabel{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .email{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .message{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    background: #D9D9D94D;
+    color: #ffffff;   
+    width: 81%;
+    height: 25%;
+    opacity: 0px;
+    text-align: left;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.contactus .contactusMain .mainSecond .secondBottom .bottomForm .submit{
+    width: 15%;
+    height: 10%;
+    opacity: 0px;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: black;        
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    border-radius: 25px;
+}

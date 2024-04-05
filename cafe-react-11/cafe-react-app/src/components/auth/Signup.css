@@ -1,0 +1,317 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.signup{
+    width: 100vw;
+    height: 85vh;
+    background: rgb(102, 84, 84);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signup .signupMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signup .signupMain .mainTop{
+    width: 100%;
+    height: 15%;
+    background: rgb(116, 38, 38);
+    /* background: #252323; */
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;    
+}
+.signup .signupMain .mainBottom{
+    width: 70%;
+    height: 75%;
+    background: rgb(144, 177, 27);
+    background: white;
+    border: 2px solid black;
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup .signupMain .mainBottom .bottomTop{
+    width: 100%;
+    height: 10%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D16E43;    
+}
+.signup .signupMain .mainBottom .bottomForm{
+    width: 70%;
+    height: 80%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    position: relative;
+}
+.signup .signupMain .mainBottom .bottomForm .fname{
+    width: 43%;
+    height: 14%;
+    background: rgb(144, 177, 27);
+    background: #D9D9D9;
+    color: #4A4747BF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px; 
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.signup .signupMain .mainBottom .bottomForm .lname{
+    width: 43%;
+    height: 14%;
+    background: rgb(144, 177, 27);
+    background: #D9D9D9;
+    color: #4A4747BF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 15px;
+    text-align: center; 
+    text-align: left;   
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 52%;
+}
+.signup .signupMain .mainBottom .bottomForm .email{
+    width: 90%;
+    height: 14%;
+    background: rgb(144, 177, 27);
+    background: #D9D9D9;
+    color: #4A4747BF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 15px;
+    text-align: center; 
+    text-align: left;   
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.signup .signupMain .mainBottom .bottomForm .pass{
+    width: 90%;
+    height: 14%;
+    background: rgb(144, 177, 27);
+    background: #D9D9D9;
+    color: #4A4747BF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center; 
+    text-align: left;   
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+.signup .signupMain .mainBottom .bottomForm .cpass{
+    width: 90%;
+    height: 14%;
+    background: rgb(144, 177, 27);
+    background: #D9D9D9;
+    color: #4A4747BF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+.signup .signupMain .mainBottom .bottomForm .submit{
+    width: 90%;
+    height: 12%;
+    background: rgb(144, 177, 27);
+    background: #F0AD90;
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center; 
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
+.signup .signupMain .mainBottom .bottomBottom{
+    width: 100%;
+    height: 10%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #D16E43;
+}
+.signup .signupMain .mainBottom .bottomBottom .bottomLeft{
+    width: 25%;
+    height: 90%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #D16E43;
+    margin-bottom: 10px;
+}
+.signup .signupMain .mainBottom .bottomBottom .bottomRight{
+    width: 10%;
+    height: 80%;
+    background: rgb(144, 177, 27);
+    background: #F0AD90;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center; 
+    border: none;
+    border-radius: 10px;  
+    color: white;
+    margin-bottom: 10px;
+}

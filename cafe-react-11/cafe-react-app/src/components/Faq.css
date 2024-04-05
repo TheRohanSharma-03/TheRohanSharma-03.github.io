@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.faq{
+    width: 100vw;
+    height: 170vh;
+    background: rgb(102, 84, 84);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq .faqMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: white;
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq .faqMain .mainFirst{
+    width: 100%;
+    height: 50%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: rgb(19, 186, 66);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq .faqMain .mainFirst .firstTop{
+    width: 100%;
+    height: 25%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    /* background: rgb(242, 255, 0); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77.45px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.faq .faqMain .mainFirst .firstBottom{
+    width: 100%;
+    height: 75%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: rgb(19, 105, 186);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    text-align: left;
+    color: black;
+}
+.faq .faqMain .mainFirst .firstBottom .bottomRow1{
+    width: 100%;
+    height: 30%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: rgb(221, 10, 140);
+    background: #252323;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+.faq .faqMain .mainFirst .firstBottom .bottomRow1 .item1, .item2, .item3, .item4{
+    background: #D9D9D9;
+    padding: 10px 20px;
+}
+.faq .faqMain .mainFirst .firstBottom .bottomRow2 .item1, .item2, .item3{
+    background: #D9D9D9;
+    padding: 10px 20px;
+}
+.faq .faqMain .mainFirst .firstBottom .bottomRow3 .item1{
+    background: #D9D9D980;
+    padding: 10px 20px;
+}
+.faq .faqMain .mainFirst .firstBottom .bottomRow2{
+    width: 100%;
+    height: 30%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: rgb(172, 186, 19);
+    background: #252323;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+.faq .faqMain .mainFirst .firstBottom .bottomRow3{
+    width: 100%;
+    height: 30%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: rgb(19, 186, 50);
+    background: #252323;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+.faq .faqMain .mainSecond{
+    width: 100%;
+    height: 50%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    /* background: rgb(194, 21, 191); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq .faqMain .mainSecond .secondTop{
+    width: 100%;
+    height: 25%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    /* background: rgb(38, 21, 194); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-top: 20px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.73px;
+    text-align: left;
+    color: #ffffff;    
+}
+.faq .faqMain .mainSecond .secondBottom{
+    width: 100%;
+    height: 75%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    /* background: rgb(194, 21, 191); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 38.73px;
+    text-align: left;
+    color: #FFFFFF;   
+    padding: 50px; 
+    padding-top: 35px;
+}

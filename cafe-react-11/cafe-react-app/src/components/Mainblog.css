@@ -1,0 +1,1179 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+/*                                                main blog ( first, second, third, fourth )                                             */
+
+.mainblog{
+    width: 100vw;
+    height:295vh;
+    background: red;
+}
+
+/*                                                         main  blog first                                                              */
+
+.mainblog .blogFirst{
+    width: 100vw;
+    height:85vh;
+    background: rgb(215, 192, 15);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mainblog .blogFirst .mainImg{
+    width: 80%;
+    height:90%;
+    background: black;
+    opacity: 50%;
+    border-radius: 4%;
+    /* position: absolute; */
+
+    /* top: 5%;
+    left: 10%; */
+}
+
+/*                                                    main blog first main ( left, right )                                                   */
+
+.mainblog .blogFirst .firstMain{
+    width: 80%;
+    height:90%;
+    /* background: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+/*                                                         main blog first main left                                                         */
+
+.mainblog .blogFirst .firstMain .mainLeft{
+    width: 50%;
+    height: 100%;
+    /* background: rgb(198, 9, 9); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.mainblog .blogFirst .firstMain .mainLeft .leftText{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FAF3F3B5;    
+    font-size: 60px;
+    padding-bottom: 18%;
+    padding-right: 32%;
+}
+
+/*                                                         main blog first main right                                                         */
+
+.mainblog .blogFirst .firstMain .mainRight{
+    width: 50%;
+    height: 100%;
+    /* background: rgb(202, 84, 84); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+.mainblog .blogFirst .firstMain .mainRight .rightText{
+    width: 70%;
+    height: 30%;
+    /* background: rgb(189, 15, 15); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.mainblog .blogFirst .firstMain .mainRight .rightText .textTop{
+    width: 100%;
+    height: 25%;
+    /* background: rgb(126, 62, 62); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 43px;
+    font-style: italic;
+    font-weight: 400;
+    color: #E6D0A4; 
+}
+.mainblog .blogFirst .firstMain .mainRight .rightText .textBottom{
+    width: 100%;
+    height: 75%;
+    /* background: rgb(56, 6, 6); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+}
+
+/*                                                           main blog second                                                              */
+
+.mainblog .blogSecond{
+    width: 100vw;
+    height:85vh;
+    background: rgb(0, 255, 162);
+}
+
+/*                                                           main blog second main                                                             */
+.mainblog .blogSecond .secondMain{
+    width: 100%;
+    height:100%;
+    background: rgb(44, 66, 58);
+    border-top: 2px solid #D16E43;
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainTop{
+    width: 100%;
+    height:10%;
+    /* background: rgb(22, 87, 19); */
+    font-family: Inter;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom{
+    width: 100%;
+    height: 90%;
+    background: rgb(104, 234, 186);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container{
+    height: 60vh;
+    width: 60vw;
+    background: #139c2a;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main{
+    width: 100%;
+    height: 100%;
+    background: rgb(207, 36, 36);
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1{
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 255, 0);
+    position: relative;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .left{
+    width: 40%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: 0%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .left .mainblog1Second{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .right{
+    width: 60%;
+    height: 100%;
+    background: rgb(191, 15, 15);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .right .rightText{
+    width: 70%;
+    height: 60%;
+    /* background: rgb(96, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .right .rightText .textTop{
+    width: 100%;
+    height: 80%;
+    background: rgb(71, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;    
+    /* text-align: justify; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .right .rightText .textBottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(95, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+    text-decoration-color: #FFFFFF;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-1 .right .rightText .textBottom .link{
+    color: black;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2{
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 255, 0);
+    position: relative;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .left{
+    width: 50%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: white;
+    position: absolute;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .left .mainblog2Second{
+    width: 90%;
+    height: 90%;
+    /* background: rgb(163, 46, 46); */
+    /* object-fit:initial; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .right{
+    width: 50%;
+    height: 100%;
+    background: rgb(191, 15, 15);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .right .rightText{
+    width: 70%;
+    height: 60%;
+    /* background: rgb(96, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .right .rightText .textTop{
+    width: 100%;
+    height: 80%;
+    background: rgb(71, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;    
+    /* text-align: justify; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .right .rightText .textBottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(95, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+    text-decoration-color: #FFFFFF;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-2 .right .rightText .textBottom .link{
+    color: black;
+}
+
+
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3{
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 255, 0);
+    position: relative;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .left{
+    width: 50%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: white;
+    position: absolute;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .left .mainblog3Second{
+    width: 90%;
+    height: 90%;
+    /* background: rgb(163, 46, 46); */
+    /* object-fit:contain; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .right{
+    width: 50%;
+    height: 100%;
+    background: rgb(191, 15, 15);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .right .rightText{
+    width: 70%;
+    height: 60%;
+    /* background: rgb(96, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .right .rightText .textTop{
+    width: 100%;
+    height: 80%;
+    background: rgb(71, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;    
+    /* text-align: justify; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .right .rightText .textBottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(95, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+    text-decoration-color: #FFFFFF;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-3 .right .rightText .textBottom .link{
+    color: black;
+}
+
+
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4{
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 255, 0);
+    position: relative;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .left{
+    width: 50%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .left .mainblog4Second{
+    width: 90%;
+    height: 90%;
+    background: rgb(0, 0, 0);
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .right{
+    width: 50%;
+    height: 100%;
+    background: rgb(191, 15, 15);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .right .rightText{
+    width: 70%;
+    height: 60%;
+    /* background: rgb(96, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .right .rightText .textTop{
+    width: 100%;
+    height: 80%;
+    background: rgb(71, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;    
+    /* text-align: justify; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .right .rightText .textBottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(95, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+    text-decoration-color: #FFFFFF;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-4 .right .rightText .textBottom .link{
+    color: black;
+}
+
+
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5{
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 255, 0);
+    position: relative;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .left{
+    width: 50%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .left .mainblog5Second{
+    width: 90%;
+    height: 90%;
+    background: rgb(255, 255, 255);
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .right{
+    width: 50%;
+    height: 100%;
+    background: rgb(191, 15, 15);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .right .rightText{
+    width: 70%;
+    height: 60%;
+    /* background: rgb(96, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .right .rightText .textTop{
+    width: 100%;
+    height: 80%;
+    background: rgb(71, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;    
+    /* text-align: justify; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .right .rightText .textBottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(95, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+    text-decoration-color: #FFFFFF;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-5 .right .rightText .textBottom .link{
+    color: black;
+}
+
+
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6{
+    width: 100%;
+    height: 60vh;
+    background: rgb(255, 255, 0);
+    position: relative;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .left{
+    width: 50%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .left .mainblog6Second{
+    width: 90%;
+    height: 90%;
+    background: rgb(255, 255, 255);
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .right{
+    width: 50%;
+    height: 100%;
+    background: rgb(191, 15, 15);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .right .rightText{
+    width: 70%;
+    height: 60%;
+    /* background: rgb(96, 53, 53); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .right .rightText .textTop{
+    width: 100%;
+    height: 80%;
+    background: rgb(71, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    color: black;    
+    /* text-align: justify; */
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .right .rightText .textBottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(95, 53, 96);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    color: #E6D0A4;    
+    text-align: justify;
+    text-decoration-color: #FFFFFF;
+}
+.mainblog .blogSecond .secondMain .mainBottom .slider-container .slider-main #slider-div-6 .right .rightText .textBottom .link{
+    color: black;
+}
+
+
+/*                                                           main blog third                                                              */
+
+.mainblog .blogThird{
+    width: 100vw;
+    height:85vh;
+    background: rgb(255, 0, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain{
+    width: 100vw;
+    height:85vh;
+    background: rgb(78, 28, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainTop{
+    width: 100%;
+    height:10%;
+    background: rgb(27, 182, 107);
+    border-top: 2px solid #D16E43;
+    background: #252323;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 37px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.mainblog .blogThird .thirdMain .mainBottom{
+    width: 100%;
+    height:90%;
+    background: rgb(201, 23, 100);
+    background: #252323;
+    border-bottom: 2px solid #D16E43;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container{
+    height: 70vh;
+    width: 90vw;
+    background: #139c2a;
+    background: #252323;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main{
+    width: 100%;
+    height: 100%;
+    background: rgb(191, 0, 255);
+    background: #252323;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1{
+    width: 100%;
+    height: 70vh;
+    background: rgb(255, 0, 0);
+    background: #252323;
+    position: relative;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner{
+    width: 90%;
+    height: 90%;
+    background: rgb(155, 26, 26);
+    background: #252323;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .top{
+    width: 100%;
+    height: 70%;
+    background: rgb(204, 255, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .top .mainblog1Third{
+    width: 95%;
+    height: 95%;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .mid{
+    width: 100%;
+    height: 10%;
+    background: rgb(24, 71, 13);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .mid button{
+    width: 15%;
+    /* height: 80%; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .mid .on{
+    color: #ff9933;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .bottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(27, 41, 145);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-1 .div-1-inner .bottom .bottomInner{
+    width: 95%;
+    height: 95%;
+    background: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #FFF5F5; 
+    padding: 5px;   
+}
+
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2{
+    width: 100%;
+    height: 70vh;
+    background: rgb(255, 255, 0);
+    background: #252323;
+    position: relative;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner{
+    width: 90%;
+    height: 90%;
+    background: rgb(170, 170, 19);
+    background: #252323;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .top{
+    width: 100%;
+    height: 70%;
+    background: rgb(112, 23, 23);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .top .mainblog2Third{
+    width: 95%;
+    height: 95%;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .mid{
+    width: 100%;
+    height: 10%;
+    background: rgb(16, 13, 71);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .mid button{
+    width: 15%;
+    /* height: 80%; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .mid .on{
+    color: #ff9933;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .bottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(104, 182, 16);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-2 .div-2-inner .bottom .bottomInner{
+    width: 95%;
+    height: 95%;
+    background: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #FFF5F5; 
+    padding: 5px;   
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3{
+    width: 100%;
+    height: 70vh;
+    background: rgb(51, 255, 0);
+    background: #252323;
+    position: relative;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner{
+    width: 90%;
+    height: 90%;
+    background: rgb(51, 179, 19);
+    background: #252323;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .top{
+    width: 100%;
+    height: 70%;
+    background: rgb(202, 15, 15);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .top .mainblog3Third{
+    width: 95%;
+    height: 95%;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .mid{
+    width: 100%;
+    height: 10%;
+    background: rgb(71, 13, 13);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .mid button{
+    width: 15%;
+    /* height: 80%; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .mid .on{
+    color: #ff9933;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .bottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(74, 15, 223);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-3 .div-3-inner .bottom .bottomInner{
+    width: 95%;
+    height: 95%;
+    background: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #FFF5F5; 
+    padding: 5px;   
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4{
+    width: 100%;
+    height: 70vh;
+    background: rgb(17, 0, 255);
+    background: #252323;
+    position: relative;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner{
+    width: 90%;
+    height: 90%;
+    background: rgb(30, 20, 175);
+    background: #252323;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .top{
+    width: 100%;
+    height: 70%;
+    background: rgb(202, 15, 15);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .top .mainblog4Third{
+    width: 95%;
+    height: 95%;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .mid{
+    width: 100%;
+    height: 10%;
+    background: rgb(71, 13, 13);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .mid button{
+    width: 15%;
+    /* height: 80%; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .mid .on{
+    color: #ff9933;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .bottom{
+    width: 100%;
+    height: 20%;
+    background: rgb(15, 223, 123);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogThird .thirdMain .mainBottom .slider-container .slider-main #slider-div-4 .div-4-inner .bottom .bottomInner{
+    width: 95%;
+    height: 95%;
+    background: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #FFF5F5; 
+    padding: 5px;   
+}
+
+
+
+/*                                                           main blog fourth                                                              */
+
+.mainblog .blogFourth{
+    width: 100vw;
+    height:40vh;
+    background: rgb(0, 255, 60);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogFourth .fourthMain{
+    width: 90%;
+    height: 95%;
+    background: rgb(0, 255, 60);
+    background: #252323;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogFourth .fourthMain .first{
+    width: 95%;
+    height: 30%;
+    background: rgb(255, 60, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF5F5;    
+}
+.mainblog .blogFourth .fourthMain .second{
+    width: 95%;
+    height: 20%;
+    background: rgb(179, 255, 0);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FBF4F4;    
+}
+.mainblog .blogFourth .fourthMain .third{
+    width: 95%;
+    height: 20%;
+    background: rgb(0, 255, 60);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF8F8;    
+}
+.mainblog .blogFourth .fourthMain .fourth{
+    width: 95%;
+    height: 30%;
+    background: rgb(102, 0, 255);
+    background: #252323;
+    /* background: #D9D9D9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogFourth .fourthMain .fourth .fourthInner{
+    width: 95%;
+    height: 90%;
+    background: rgb(102, 0, 255);
+    /* background: #252323; */
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mainblog .blogFourth .fourthMain .fourth .fourthInner .giveReview{
+    width: 90%;
+    height: 100%;
+    background: rgb(102, 0, 255);
+    background: #252323;
+    /* background: #D9D9D9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.mainblog .blogFourth .fourthMain .fourth .fourthInner .giveReview input{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 255, 0);
+    background: #252323;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #484343;   
+    text-decoration: none; 
+    border: none;
+}
+.mainblog .blogFourth .fourthMain .fourth .fourthInner .submit{
+    width: 10%;
+    height: 100%;
+    background: rgb(0, 0, 255);
+    background: #252323;
+    background: #D9D9D9;
+    /* background: #D9D9D9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+.mainblog .blogFourth .fourthMain .fourth .fourthInner .submit input{
+    width: 90%;
+    height: 60%;
+    background: rgb(0, 255, 94);
+    /* background: #252323; */
+    /* background: #D9D9D9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; 
+    border: none;
+    padding: 10px; 
+    font-size: 20px;
+    border-radius: 10px;
+    background: #3C2D25;
+    color: #D9D9D9;;
+}

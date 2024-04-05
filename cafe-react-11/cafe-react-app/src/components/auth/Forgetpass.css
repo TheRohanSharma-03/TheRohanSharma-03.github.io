@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+.forgetPass{
+    width: 100vw;
+    height: 85vh;
+    background: rgb(102, 84, 84);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forgetPass .forgetPassMain{
+    width: 100%;
+    height: 100%;
+    background: rgb(177, 27, 27);
+    background: #252323;
+    background: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.forgetPass .forgetPassMain .mainLeft{
+    width: 60%;
+    height: 100%;
+    background: red;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgetPass .forgetPassMain .mainRight{
+    width: 40%;
+    height: 100%;
+    background: blue;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.forgetPass .forgetPassMain .mainRight .forgetPassImg{
+    width: 80%;
+    height: 80%;
+    background: blue;
+    background: white;
+    padding-bottom: 35px;
+}
+.forgetPass .forgetPassMain .mainTop{
+    width: 100%;
+    height: 15%;
+    background: rgb(116, 38, 38);
+    /* background: #252323; */
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;    
+}
+.forgetPass .forgetPassMain .mainBottom{
+    width: 80%;
+    height: 75%;
+    background: rgb(144, 177, 27);
+    background: white;
+    border: 2px solid black;
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgetPass .forgetPassMain .mainBottom .bottomTop{
+    width: 100%;
+    height: 15%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D16E43; 
+    padding: 0px 50px;
+    padding-left: 100px;
+    padding-top: 20px;   
+}
+.forgetPass .forgetPassMain .mainBottom .bottomForm{
+    width: 70%;
+    height: 80%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 18px;
+    position: relative;
+}
+.forgetPass .forgetPassMain .mainBottom .bottomForm .email{
+    width: 90%;
+    height: 20%;
+    background: rgb(144, 177, 27);
+    background: #D9D9D9;
+    color: #4A4747BF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 15px;
+    text-align: center; 
+    text-align: left;   
+    padding-left: 15px;
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.forgetPass .forgetPassMain .mainBottom .bottomForm .submit{
+    width: 90%;
+    height: 20%;
+    background: rgb(144, 177, 27);
+    background: #F0AD90;
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center; 
+    border: none;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 48%;
+    left: 5%;
+}
+.forgetPass .forgetPassMain .mainBottom .bottomBottom{
+    width: 20%;
+    height: 10%;
+    background: rgb(144, 177, 27);
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #D16E43;
+    position: absolute;
+    top: 82%;
+    left: 61%;
+}
+.forgetPass .forgetPassMain .mainBottom .bottomBottom .bottomRight{
+    width: 90%;
+    height: 80%;
+    background: rgb(144, 177, 27);
+    background: #F0AD90;
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    /* background: #252323; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center; 
+    border: none;
+    border-radius: 10px;  
+    color: white;
+    color: #4A4747BF;
+    color: black;
+    margin-bottom: 10px;
+}

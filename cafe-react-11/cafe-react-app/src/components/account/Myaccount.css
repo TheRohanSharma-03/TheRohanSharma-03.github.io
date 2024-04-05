@@ -1,0 +1,472 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+.myaccount{
+    width: 100vw;
+    height: 200vh;
+    background: rgb(102, 84, 84);
+    background: #252323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.myaccount .accountImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+.myaccount .myaccountMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    opacity: 50%;
+}
+.myaccount .myaccountMain .mainTop{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom{
+    width: 100vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom .bottomLeft{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    background: black;
+}
+.myaccount .myaccountMain .mainBottom .bottomLeft .leftBox{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 5%;
+    background: rgb(27, 25, 25);
+
+}
+.myaccount .myaccountMain .mainBottom .bottomLeft .leftBox .title1{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 4px solid white;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.73px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomLeft .leftBox .title2{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.73px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomLeft .leftBox .title3{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.73px;
+    text-align: left;
+    color: #FFFFFF;  
+}
+.myaccount .myaccountMain .mainBottom .bottomRight{
+    width: 75%;
+    height: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightFirst{
+    width: 100%;
+    height: 25%;
+    /* background: rgb(184, 142, 14); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightFirst .firstTop{
+    width: 98.5%;
+    height: 50%;
+    /* background: rgb(184, 14, 14); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.99px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightFirst .firstBottom{
+    width: 98.5%;
+    height: 50%;
+    /* background: rgb(14, 25, 184); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #FFFFFF; 
+    border-bottom: 2px solid white;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond{
+    width: 100%;
+    height: 25%;
+    /* background: rgb(48, 220, 9); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond .secondFirst{
+    width: 98.5%;
+    height: 30%;
+    /* background: rgb(9, 220, 213); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond .secondSecond{
+    width: 98.5%;
+    height: 10%;
+    /* background: rgb(9, 76, 220); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond .secondThird{
+    width: 98.5%;
+    height: 10%;
+    /* background: rgb(132, 9, 220); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond .secondFourth{
+    width: 98.5%;
+    height: 50%;
+    /* background: rgb(220, 9, 143); */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px solid white;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond .secondFourth .fourthLeft{
+    width: 40%;
+    height: 100%;
+    /* background: rgb(9, 220, 206); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightSecond .secondFourth .fourthRight{
+    width: 60%;
+    height: 100%;
+    /* background: rgb(86, 220, 9); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird{
+    width: 100%;
+    height: 50%;
+    /* background: rgb(6, 23, 213); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdTop{
+    width: 100%;
+    height: 50%;
+    /* background: rgb(6, 213, 20); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdTop .topAddress{
+    width: 100%;
+    height: 40%;
+    /* background: rgb(6, 213, 213); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: flex-end;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #ffffff;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdTop .topMessage{
+    width: 100%;
+    height: 40%;
+    /* background: rgb(6, 213, 20); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    text-align: left;
+    color: #ffffff;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdTop .topEmail{
+    width: 100%;
+    height: 20%;
+    /* background: rgb(213, 68, 6); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdBottom{
+    width: 100%;
+    height: 50%;
+    /* background: rgb(213, 185, 6); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdBottom .bottomAddress{
+    width: 100%;
+    height: 40%;
+    /* background: rgb(6, 213, 213); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: flex-end;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    color: #ffffff;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdBottom .bottomMessage{
+    width: 100%;
+    height: 40%;
+    /* background: rgb(6, 213, 20); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    text-align: left;
+    color: #ffffff;
+}
+.myaccount .myaccountMain .mainBottom .bottomRight .rightThird .thirdBottom .bottomEmail{
+    width: 100%;
+    height: 20%;
+    /* background: rgb(213, 68, 6); */
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29.05px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.myaccount .myaccountMain .mainLast{
+    width: 100vw;
+    height: 15vh;
+    background: rgb(255, 0, 179);
+    background: #252323;
+    background: black;
+    opacity: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+}
+.myaccount .myaccountMain .mainLast .lastForm{
+    width: 30%;
+    height: 90%;
+    /* background: rgb(0, 255, 68); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.myaccount .myaccountMain .mainLast .lastForm label{
+    width: 50%;
+    height: 30%;
+    /* background: rgb(187, 255, 0); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #ffffff;    
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.myaccount .myaccountMain .mainLast .lastForm .email{
+    width: 70%;
+    height: 50%;
+    /* background: rgb(0, 255, 68); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 38.73px;
+    text-align: left;
+    color: #ffffff;    
+    background: #2e2a2a;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    border: none;
+}
+.myaccount .myaccountMain .mainLast .lastForm .submit{
+    width: 28%;
+    height: 50%;
+    /* background: rgb(0, 255, 68); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.73px;
+    text-align: left;
+    background: #C4C4C4;    
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 72%;
+    border: none;
+}
