@@ -1,0 +1,20 @@
+
+1)	accept a number and display its table.           
+2)	using switch ….case   display whether accepted character is vowel or not.
+3)	Display numbers  1 to 10 using  While loop
+4)	Display numbers from 3 to 30 except number 24  using while loop.
+5)	accept marks from the user. Using if…….elif….  Else,  display whether result is  fail, pass, second class , first class, Distinction etc.  
+6) print the total of first 10 numbers.
+7) accept numbers till user enters 0 and display the total of all the numbers entered.
+8) accept a character and display whether it is upper case or lower case or not an alphabet.
+9) display fibonicii series of 10 numbers
+10) display prime numbers from 3 to 30
+11) accept a number and display whether it is prime or not
+
+
+
+
+
+
+
+
